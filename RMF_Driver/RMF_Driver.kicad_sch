@@ -1,0 +1,303 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "RMF_Bi-Color_LED:VLMKG3400-GS18" (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "LED" (id 0) (at 20.32 10.16 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Value" "VLMKG3400-GS18" (id 1) (at 20.32 7.62 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Footprint" "PLCC-4_VIS" (id 2) (at 20.32 6.096 0)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "ki_locked" "" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "ki_fp_filters" "PLCC-4_VIS PLCC-4_VIS-M PLCC-4_VIS-L" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "VLMKG3400-GS18_1_1"
+        (polyline
+          (pts
+            (xy 7.62 -10.16)
+            (xy 33.02 -10.16)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 7.62 -5.08)
+            (xy 19.304 -5.08)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 7.62 0)
+            (xy 19.304 0)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 7.62 5.08)
+            (xy 7.62 -10.16)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 19.304 -5.842)
+            (xy 21.082 -5.08)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 19.304 -4.318)
+            (xy 19.304 -5.842)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 19.304 0)
+            (xy 21.082 0.762)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 19.304 0.762)
+            (xy 19.304 -0.762)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 19.304 1.524)
+            (xy 19.304 1.27)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 19.304 1.524)
+            (xy 19.558 1.524)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 19.812 -3.81)
+            (xy 20.32 -3.302)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 19.812 1.016)
+            (xy 19.304 1.524)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 20.066 1.778)
+            (xy 20.066 1.524)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 20.066 1.778)
+            (xy 20.32 1.778)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 20.32 -3.302)
+            (xy 20.066 -3.302)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 20.32 -3.302)
+            (xy 20.32 -3.556)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 20.574 -4.064)
+            (xy 21.082 -3.556)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 20.574 1.27)
+            (xy 20.066 1.778)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 21.082 -5.08)
+            (xy 19.304 -4.318)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 21.082 -5.08)
+            (xy 33.02 -5.08)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 21.082 -4.318)
+            (xy 21.082 -5.842)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 21.082 -3.556)
+            (xy 20.828 -3.556)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 21.082 -3.556)
+            (xy 21.082 -3.81)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 21.082 -0.762)
+            (xy 19.304 0)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 21.082 0)
+            (xy 33.02 0)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 21.082 0.762)
+            (xy 21.082 -0.762)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 33.02 -10.16)
+            (xy 33.02 5.08)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 33.02 5.08)
+            (xy 7.62 5.08)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (pin unspecified line (at 0 0 0) (length 7.62)
+          (name "1" (effects (font (size 1.4986 1.4986))))
+          (number "1" (effects (font (size 1.4986 1.4986))))
+        )
+        (pin unspecified line (at 0 -5.08 0) (length 7.62)
+          (name "2" (effects (font (size 1.4986 1.4986))))
+          (number "2" (effects (font (size 1.4986 1.4986))))
+        )
+        (pin unspecified line (at 40.64 -5.08 180) (length 7.62)
+          (name "3" (effects (font (size 1.4986 1.4986))))
+          (number "3" (effects (font (size 1.4986 1.4986))))
+        )
+        (pin unspecified line (at 40.64 0 180) (length 7.62)
+          (name "4" (effects (font (size 1.4986 1.4986))))
+          (number "4" (effects (font (size 1.4986 1.4986))))
+        )
+      )
+    )
+  )
+
+
+  (symbol (lib_id "RMF_Bi-Color_LED:VLMKG3400-GS18") (at 106.68 104.14 180) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid cb658bfb-bb44-442b-af68-cdf8168ed728)
+    (property "Reference" "LED?" (id 0) (at 86.36 87.63 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Value" "" (id 1) (at 86.36 91.44 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Footprint" "" (id 2) (at 86.36 110.236 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 106.68 104.14 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid b3dc6ebf-2791-42b3-a514-444efd66de71))
+    (pin "2" (uuid 6f29f4c3-a661-4405-981e-bd400129444f))
+    (pin "3" (uuid e9b3c7ab-9a7d-41ab-b41f-c521c2f31bd3))
+    (pin "4" (uuid 414c44f1-6dc8-47ac-8734-d071cba6d2ba))
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+
+  (symbol_instances
+    (path "/cb658bfb-bb44-442b-af68-cdf8168ed728"
+      (reference "LED?") (unit 1) (value "VLMKG3400-GS18") (footprint "PLCC-4_VIS")
+    )
+  )
+)
