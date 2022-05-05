@@ -10,6 +10,12 @@
 * [Texas Instruments CD74ACT175 Quad D-Type Flip-Flops with Reset](https://www.ti.com/product/CD74ACT175)
 * [CMOS Dual J-K Master-Slave Flip-Flop](https://www.ti.com/product/CD4027B)
 
+## Ring Counter
+* [Texas Instruments CD74HC4017 High Speed CMOS Logic Decade Counter/Divider with 10 Decoded Outputs](https://www.ti.com/product/CD74HC4017)
+
+## Direction Change
+* [Texas Instruments CD74AC00 4-ch, 2-input, 1.5-V to 5.5-V NAND gates](https://www.ti.com/product/CD74AC00)
+
 ## Mechanical Setup
 * [STATOR TRIUMPH 955(i)](https://www.rmstator-europe.com/en/955-tiger-/310-stator-triumph-speed-triple-955-sprint-rs-955-sprint-st-955-tiger-955-oem-t1300502-t1300350.html)
 	- Dimensions :
@@ -32,3 +38,4 @@
 * [Schematics Simulated with Analog Devices LTspice](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html)
 * [Schematics Designed with KiCad EDA](https://www.kicad.org)
 * [USING CD4000_V.LIB AND 74HC.LIB IN LTSPICE by acidbourbon](https://acidbourbon.wordpress.com/2021/06/30/using-cd4000_v-lib-in-ltspice/)
+* [Logisim by carlburch](https://sourceforge.net/projects/circuit/)
