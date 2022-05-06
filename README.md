@@ -16,6 +16,9 @@
 ## Direction Change
 * [Texas Instruments CD74AC00 4-ch, 2-input, 1.5-V to 5.5-V NAND gates](https://www.ti.com/product/CD74AC00)
 
+## Square Wave with 50% accurate Duty Cycle Frequency Generator
+* [Texas Instruments TLC555 2.1-MHz, 250-µA, Low-Power Timer](https://www.ti.com/product/TLC555)
+
 ## Mechanical Setup
 * [STATOR TRIUMPH 955(i)](https://www.rmstator-europe.com/en/955-tiger-/310-stator-triumph-speed-triple-955-sprint-rs-955-sprint-st-955-tiger-955-oem-t1300502-t1300350.html)
 	- Dimensions :
