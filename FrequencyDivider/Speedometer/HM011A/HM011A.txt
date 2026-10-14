@@ -1,0 +1,36 @@
+HM011A
+µController:
+HOLTEK
+HT67F489
+C233J00TUG3
+https://www.holtek.com/page/vg/67f488_489
+Supply Voltage VSS−0.3V to VSS+6.0V
+
+IC:
+HEF4011BT
+C1m46126
+TXD230T6
+https://www.nexperia.com/products/analog-logic-ics/logic/gates/nand-gates/HEF4011BT.html
+Quad 2-input NAND gate
+power supply range of 3 V to 15 V
+
+
+
+
+Q1
+21Y
+2TY
+BL Galaxy Electrical
+Silicon Epitaxial Planar Transistor
+Production specification
+ MAXIMUM RATING @ Ta=25°C unless otherwise specified
+Marking 2TY
+Package Code SOT-23
+S8550
+
+XUH735000.016000K
+XUH73
+
+74HC393BQ-Q100X
+Model Issue number
+  IQXO-402

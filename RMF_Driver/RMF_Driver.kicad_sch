@@ -1,303 +1,239 @@
-(kicad_sch (version 20211123) (generator eeschema)
-
-  (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "RMF_Bi-Color_LED:VLMKG3400-GS18" (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "LED" (id 0) (at 20.32 10.16 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "Value" "VLMKG3400-GS18" (id 1) (at 20.32 7.62 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "Footprint" "PLCC-4_VIS" (id 2) (at 20.32 6.096 0)
-        (effects (font (size 1.524 1.524)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "ki_locked" "" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_fp_filters" "PLCC-4_VIS PLCC-4_VIS-M PLCC-4_VIS-L" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "VLMKG3400-GS18_1_1"
-        (polyline
-          (pts
-            (xy 7.62 -10.16)
-            (xy 33.02 -10.16)
-          )
-          (stroke (width 0.127) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 7.62 -5.08)
-            (xy 19.304 -5.08)
-          )
-          (stroke (width 0.127) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 7.62 0)
-            (xy 19.304 0)
-          )
-          (stroke (width 0.127) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 7.62 5.08)
-            (xy 7.62 -10.16)
-          )
-          (stroke (width 0.127) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 19.304 -5.842)
-            (xy 21.082 -5.08)
-          )
-          (stroke (width 0.127) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 19.304 -4.318)
-            (xy 19.304 -5.842)
-          )
-          (stroke (width 0.127) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 19.304 0)
-            (xy 21.082 0.762)
-          )
-          (stroke (width 0.127) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 19.304 0.762)
-            (xy 19.304 -0.762)
-          )
-          (stroke (width 0.127) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 19.304 1.524)
-            (xy 19.304 1.27)
-          )
-          (stroke (width 0.127) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 19.304 1.524)
-            (xy 19.558 1.524)
-          )
-          (stroke (width 0.127) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 19.812 -3.81)
-            (xy 20.32 -3.302)
-          )
-          (stroke (width 0.127) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 19.812 1.016)
-            (xy 19.304 1.524)
-          )
-          (stroke (width 0.127) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 20.066 1.778)
-            (xy 20.066 1.524)
-          )
-          (stroke (width 0.127) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 20.066 1.778)
-            (xy 20.32 1.778)
-          )
-          (stroke (width 0.127) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 20.32 -3.302)
-            (xy 20.066 -3.302)
-          )
-          (stroke (width 0.127) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 20.32 -3.302)
-            (xy 20.32 -3.556)
-          )
-          (stroke (width 0.127) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 20.574 -4.064)
-            (xy 21.082 -3.556)
-          )
-          (stroke (width 0.127) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 20.574 1.27)
-            (xy 20.066 1.778)
-          )
-          (stroke (width 0.127) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 21.082 -5.08)
-            (xy 19.304 -4.318)
-          )
-          (stroke (width 0.127) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 21.082 -5.08)
-            (xy 33.02 -5.08)
-          )
-          (stroke (width 0.127) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 21.082 -4.318)
-            (xy 21.082 -5.842)
-          )
-          (stroke (width 0.127) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 21.082 -3.556)
-            (xy 20.828 -3.556)
-          )
-          (stroke (width 0.127) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 21.082 -3.556)
-            (xy 21.082 -3.81)
-          )
-          (stroke (width 0.127) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 21.082 -0.762)
-            (xy 19.304 0)
-          )
-          (stroke (width 0.127) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 21.082 0)
-            (xy 33.02 0)
-          )
-          (stroke (width 0.127) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 21.082 0.762)
-            (xy 21.082 -0.762)
-          )
-          (stroke (width 0.127) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 33.02 -10.16)
-            (xy 33.02 5.08)
-          )
-          (stroke (width 0.127) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 33.02 5.08)
-            (xy 7.62 5.08)
-          )
-          (stroke (width 0.127) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (pin unspecified line (at 0 0 0) (length 7.62)
-          (name "1" (effects (font (size 1.4986 1.4986))))
-          (number "1" (effects (font (size 1.4986 1.4986))))
-        )
-        (pin unspecified line (at 0 -5.08 0) (length 7.62)
-          (name "2" (effects (font (size 1.4986 1.4986))))
-          (number "2" (effects (font (size 1.4986 1.4986))))
-        )
-        (pin unspecified line (at 40.64 -5.08 180) (length 7.62)
-          (name "3" (effects (font (size 1.4986 1.4986))))
-          (number "3" (effects (font (size 1.4986 1.4986))))
-        )
-        (pin unspecified line (at 40.64 0 180) (length 7.62)
-          (name "4" (effects (font (size 1.4986 1.4986))))
-          (number "4" (effects (font (size 1.4986 1.4986))))
-        )
-      )
-    )
-  )
-
-
-  (symbol (lib_id "RMF_Bi-Color_LED:VLMKG3400-GS18") (at 106.68 104.14 180) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid cb658bfb-bb44-442b-af68-cdf8168ed728)
-    (property "Reference" "LED?" (id 0) (at 86.36 87.63 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "" (id 1) (at 86.36 91.44 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "" (id 2) (at 86.36 110.236 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 106.68 104.14 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (pin "1" (uuid b3dc6ebf-2791-42b3-a514-444efd66de71))
-    (pin "2" (uuid 6f29f4c3-a661-4405-981e-bd400129444f))
-    (pin "3" (uuid e9b3c7ab-9a7d-41ab-b41f-c521c2f31bd3))
-    (pin "4" (uuid 414c44f1-6dc8-47ac-8734-d071cba6d2ba))
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
-
-  (symbol_instances
-    (path "/cb658bfb-bb44-442b-af68-cdf8168ed728"
-      (reference "LED?") (unit 1) (value "VLMKG3400-GS18") (footprint "PLCC-4_VIS")
-    )
-  )
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
+	(paper "A4")
+	(title_block
+		(title "RMF Driver")
+		(date "2023-01-20")
+		(rev "2")
+		(comment 1 "Rotating Magnetic Field Driver")
+	)
+	(lib_symbols)
+	(circle
+		(center 141.097 94.615)
+		(radius 67.337)
+		(stroke
+			(width 0.5)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "e92807c1-665b-44b4-902c-e3321e7ab724")
+	)
+	(text_box "ToDo's:\n- add Silk Screen Labels for Qs and ~{Q}s on each IC pin\n- adjust via hole from Posts to tight fit\n- Name Sheets proper\n- estimate current\n- Overthink the purpose of B+\n- make long holes to holes to save space\n- add very small MLCCs to each Mosfet agains ringing\n- add series R and ESD Diodes to Dip Switch IC Gates\nDC/DC:\n- add TVS Diodes on the Flip Flops Inputs\n- add TVS Diode for the Mosfets Protection:\n  - TVS diode's breakdown voltage (VBR) must be higher than your normal operating voltage\n  - TVS diode's clamping voltage (VC) must be lower than the MOSFET's 30V maximum rating\n  - select a TVS diode with a clamping voltage (VC) of less than 30V\n  - 16V or 18V unidirectional TVS diode\n- is the 2kV C on the isolated power lines really needed?\n- add 1MR Minimelf parallel to the isolated grounds\n- EMI Filter\n\n#################################################\n- Qs re numbering -> done\n- switch to 4x D-Flip Flop wit Q and ~{Q} -> done\n- use fixed quarz oszi with 32 kHz -> done\n- use 4x D-Flip to devide down -> done\n- exchange to 4x SPDT switch to change clock and DIR -> done\n- add header and extra optocoupler for Tacho Out with V_{IN}\n  -> w Signal, from active clock signal (Clock_{RSR}) -> done\n- add two Ground Posts for the Osci Clip  -> done\n- seperate opto supply to buffered DC/DC In Voltage -> done\n- create a solder Jumper that is soldered during reflow and\n  put it between Power Supplys, instead or Zero Ohms -> done\n- exchange MosFet driver with dual ones in BGA package -> done\n- buffered 12V Voltage supplys VCCA/VCCB of MosFet drivers LOGIC -> done\n- checking if AND can be replaced with NANDs\n  -> not possible/available -> done\n- exchange SD103ASDM-7-F or rather remove it from the VDDA Path -> done\n- check if Ground is missing on VDDI input side GND1 -> done\n- reduce to one pcb, idealy only on top side -> done\n- switch two Mosfets of the same kind at once to save more space -> done\n- series resistors for all outputs -> done\nDC/DC:\n- remove Elko and add 10-20 22uF Cs to this supply -> done\n- exchange power supply to 5V LDO and dual voltage regulator for\n  negative supply -3.3V und +3.3V -> done\n- adjust undervoltage lockouts to 4V -> done\n- 3V3 from DC/DC supply to VDDI on MosFet drivers -> done\n- adjust L to 10µH -> done\n- check and add isolated DC/DC to seperate MosFet from Logic\n- 3V3 remove redundant Cs"
+		(exclude_from_sim no)
+		(at 213.36 41.402 0)
+		(size 71.374 114.3583)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5a99de66-02c8-4aa8-b3be-f846eaa0d1bc")
+	)
+	(sheet
+		(at 124.587 137.16)
+		(size 30.48 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0c1588b6-b01e-481b-a9fd-9da03003f863")
+		(property "Sheetname" "Logic"
+			(at 139.827 145.415 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(bold yes)
+				)
+			)
+		)
+		(property "Sheetfile" "Logic.kicad_sch"
+			(at 124.587 155.5246 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.872 35.56)
+		(size 41.91 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "153f7898-a149-4eb8-9d60-b6b2281d2adc")
+		(property "Sheetname" "Mosfet Coil Driver"
+			(at 139.827 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(bold yes)
+				)
+			)
+		)
+		(property "Sheetfile" "Mosfet_Coil_Driver.kicad_sch"
+			(at 118.872 55.3684 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 89.027 89.535)
+		(size 103.505 15.875)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "812d062b-cb89-4e76-849d-524dfd5554cf")
+		(property "Sheetname" "Power In Terminals | Temp Sensor | Power Supply"
+			(at 90.932 99.695 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerInConnTempSensor.kicad_sch"
+			(at 89.027 106.1684 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.807 63.5)
+		(size 64.77 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bb17b8c8-fe3c-4eca-ad5d-397c8897dba5")
+		(property "Sheetname" "Clock and Frequency Generator"
+			(at 139.192 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(bold yes)
+				)
+			)
+		)
+		(property "Sheetfile" "Clock_and_Frequency_Generator.kicad_sch"
+			(at 106.807 81.8646 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

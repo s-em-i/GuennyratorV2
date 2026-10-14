@@ -42,3 +42,6 @@
 * [Schematics Designed with KiCad EDA](https://www.kicad.org)
 * [USING CD4000_V.LIB AND 74HC.LIB IN LTSPICE by acidbourbon](https://acidbourbon.wordpress.com/2021/06/30/using-cd4000_v-lib-in-ltspice/)
 * [Logisim by carlburch](https://sourceforge.net/projects/circuit/)
+* [TEXMAKER - LaTex](https://www.xm1math.net/texmaker/download.html)
+* [Alexander Baran-Harper - Latex Tutorials](https://www.youtube.com/watch?v=FXujG7c9p8g&list=PLNnwglGGYoTtW7o4PHFOSWGevcdFa3v3D)
+* [Michelle Krummel  - Latex Tutorials](https://www.youtube.com/watch?v=0ivLZh9xK1Q&list=PL1D4EAB31D3EBC449)

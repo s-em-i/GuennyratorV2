@@ -1,0 +1,4768 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "092075c1-becd-4fd2-a73f-000b74c40f95")
+	(paper "A4")
+	(title_block
+		(title "LED Indicator")
+		(rev "2")
+		(comment 1 "Pole Motion Direction LEDs")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "L_RMF:L_RMF"
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L_RMF"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RMF Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_RMF_0_1"
+				(circle
+					(center -3.048 -1.016)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.508) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 -0.508)
+					(mid -2.032 -1.0138)
+					(end -2.54 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.508 -0.508)
+					(mid -1.016 -1.0138)
+					(end -1.524 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.508 -0.508)
+					(mid 0 -1.0138)
+					(end -0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.524 -0.508)
+					(mid 1.016 -1.0138)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -0.508)
+					(mid 2.032 -1.0138)
+					(end 1.524 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_RMF_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 96.901 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "086a3401-03c9-4c72-aec0-2dee5f0f2e9d")
+	)
+	(junction
+		(at 123.825 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c3d282c-d326-457a-97ca-32b80cdedc71")
+	)
+	(junction
+		(at 137.287 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f2269a8-526f-4da7-ab56-7a1f72d619d2")
+	)
+	(junction
+		(at 177.673 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60270083-ab35-4098-8b33-cecc063a0311")
+	)
+	(junction
+		(at 56.515 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "606d9e99-86b8-44b6-a566-25383382e637")
+	)
+	(junction
+		(at 83.439 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "712951a8-c024-43f1-ac9f-b1db44a625aa")
+	)
+	(junction
+		(at 191.135 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fcc48d2-7fbd-472c-8923-06ed7304e2c4")
+	)
+	(junction
+		(at 43.053 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81e8c0b0-f888-473d-a248-e2b62285a3ee")
+	)
+	(junction
+		(at 258.445 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83268f87-7135-4617-a996-f03c1058dc02")
+	)
+	(junction
+		(at 29.591 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95b560e5-e324-44da-8264-74504e09b530")
+	)
+	(junction
+		(at 218.059 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2b82b50-99d8-4b10-aa80-721b360c4f05")
+	)
+	(junction
+		(at 110.363 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a49c3570-1a32-4cc7-bb35-af50dfef6978")
+	)
+	(junction
+		(at 244.983 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a724faed-eaa5-4a4f-a36f-6e8aa5bf3560")
+	)
+	(junction
+		(at 164.211 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbd39965-585f-4c16-94ae-efebe5e1a41c")
+	)
+	(junction
+		(at 69.977 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd2e9085-9efb-404d-be46-3714d4378030")
+	)
+	(junction
+		(at 204.597 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c032deca-b297-43f2-a1e9-6c5d81fc88a4")
+	)
+	(junction
+		(at 150.749 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f10e40b8-5391-4c70-abb1-6799c30dd010")
+	)
+	(junction
+		(at 231.521 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8ad3d18-19e0-4860-8bdb-6bb89f7154d1")
+	)
+	(wire
+		(pts
+			(xy 135.636 58.42) (xy 137.287 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0601122d-a3ed-4f75-9a52-363191aa88cf")
+	)
+	(wire
+		(pts
+			(xy 191.135 58.42) (xy 191.135 60.071)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "067d5161-5ab9-43d9-8f4e-a7d331da0e88")
+	)
+	(wire
+		(pts
+			(xy 137.287 58.42) (xy 137.287 60.071)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08322d1c-6e15-44ff-9f9d-872eb87da3ce")
+	)
+	(wire
+		(pts
+			(xy 69.977 58.42) (xy 71.628 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0acb9ca5-2a63-4a65-918e-b7091199910b")
+	)
+	(wire
+		(pts
+			(xy 54.864 58.42) (xy 56.515 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1034db44-1594-4f69-84a2-75728bbb3f22")
+	)
+	(wire
+		(pts
+			(xy 258.445 58.42) (xy 258.445 60.071)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10b8cb2f-9c8b-4d45-a8a2-57e12dec0c3d")
+	)
+	(wire
+		(pts
+			(xy 68.326 58.42) (xy 69.977 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "183a2e55-2556-483e-8e1d-d48611716acb")
+	)
+	(wire
+		(pts
+			(xy 137.287 54.61) (xy 137.287 58.42)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "1afcfada-d4fe-4e8b-b8b4-0636065ff057")
+	)
+	(wire
+		(pts
+			(xy 83.439 54.61) (xy 83.439 58.42)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "1db395cc-ba67-48ef-a5a3-a93a1f47c164")
+	)
+	(wire
+		(pts
+			(xy 191.135 58.42) (xy 192.786 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22d3cf6b-388f-46c2-b172-089fd2dda10d")
+	)
+	(wire
+		(pts
+			(xy 164.211 58.42) (xy 164.211 60.071)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2490a9f7-b650-45c1-8415-d8b9cdbfd05e")
+	)
+	(wire
+		(pts
+			(xy 123.825 54.61) (xy 123.825 58.42)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "24eb2525-39ac-4790-9d6f-bc66a1a12363")
+	)
+	(wire
+		(pts
+			(xy 83.439 58.42) (xy 83.439 60.071)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "269979c1-7d6d-493d-a7ba-161c1e766acf")
+	)
+	(wire
+		(pts
+			(xy 96.901 58.42) (xy 98.552 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a573d2e-24e6-48d2-a9e0-f6d9bd268d05")
+	)
+	(wire
+		(pts
+			(xy 176.022 58.42) (xy 177.673 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fddd2d1-4aba-4498-9c30-45dea22f02bb")
+	)
+	(wire
+		(pts
+			(xy 204.597 58.42) (xy 206.248 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "310d8a35-9f5c-4022-b9c4-d8931c823301")
+	)
+	(wire
+		(pts
+			(xy 95.25 58.42) (xy 96.901 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33075aa3-1482-4792-b899-21261805b30a")
+	)
+	(wire
+		(pts
+			(xy 43.053 54.61) (xy 43.053 58.42)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "34fb58a7-be5b-48b0-8bc7-cf400d58de28")
+	)
+	(wire
+		(pts
+			(xy 150.749 54.61) (xy 150.749 58.42)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "36f8c0c9-c9f9-416b-89ab-d78beb5ed3e5")
+	)
+	(wire
+		(pts
+			(xy 27.94 58.42) (xy 29.591 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "411fbc3c-f28b-43a2-be12-2b1eb1345cd3")
+	)
+	(wire
+		(pts
+			(xy 191.135 54.61) (xy 191.135 58.42)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "41f9cd9a-0903-4f04-a7be-4ba485c51aca")
+	)
+	(wire
+		(pts
+			(xy 177.673 58.42) (xy 177.673 60.071)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a529d3d-6850-42ad-86a9-4d48d15e307d")
+	)
+	(wire
+		(pts
+			(xy 231.521 54.61) (xy 231.521 58.42)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "4b32ac35-cf58-4558-adda-0150e8b4c8f1")
+	)
+	(wire
+		(pts
+			(xy 83.439 58.42) (xy 85.09 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5768d48d-f9c9-4e1d-a896-4cc3133c7e50")
+	)
+	(wire
+		(pts
+			(xy 218.059 54.61) (xy 218.059 58.42)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "6270a888-3470-4b40-a0f9-e040628f449b")
+	)
+	(wire
+		(pts
+			(xy 29.591 58.42) (xy 29.591 60.071)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6351e249-2ec3-4fc4-b14c-881e76281715")
+	)
+	(wire
+		(pts
+			(xy 244.983 54.61) (xy 244.983 58.42)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "666278ea-d3b7-43e4-82df-807e0a6b4520")
+	)
+	(wire
+		(pts
+			(xy 218.059 58.42) (xy 219.71 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67bf5102-55a2-4158-b09f-0c71ec7ecd01")
+	)
+	(wire
+		(pts
+			(xy 256.794 58.42) (xy 258.445 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c52484e-92dd-498d-8b12-e3e9c40a2706")
+	)
+	(wire
+		(pts
+			(xy 150.749 58.42) (xy 152.4 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d0a71c0-34ad-4e35-80b1-77427d6d8567")
+	)
+	(wire
+		(pts
+			(xy 110.363 58.42) (xy 110.363 60.071)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d7b6723-a611-4d90-ba98-9b55e0ca1a08")
+	)
+	(wire
+		(pts
+			(xy 16.51 58.42) (xy 17.78 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ffa63ef-3cf0-4ebe-9fcf-042208e23b61")
+	)
+	(wire
+		(pts
+			(xy 96.901 54.61) (xy 96.901 58.42)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "71034150-dd1a-49c4-9435-f706ce97dd16")
+	)
+	(wire
+		(pts
+			(xy 149.098 58.42) (xy 150.749 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "729cf1bc-ca63-48eb-85ba-ae9e1a739c67")
+	)
+	(wire
+		(pts
+			(xy 177.673 54.61) (xy 177.673 58.42)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "739e9c08-dd13-4897-ac5f-ddc361302a63")
+	)
+	(wire
+		(pts
+			(xy 123.825 58.42) (xy 123.825 60.071)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7756c5f5-4255-4c83-9ff3-f9a20e2c3ce0")
+	)
+	(wire
+		(pts
+			(xy 244.983 58.42) (xy 246.634 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79951627-288f-410a-b7df-9429a67ca52f")
+	)
+	(wire
+		(pts
+			(xy 243.332 58.42) (xy 244.983 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c866d3d-009f-4d2f-a963-a0ac40e923a2")
+	)
+	(wire
+		(pts
+			(xy 29.591 54.61) (xy 29.591 58.42)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "894a4358-244d-4654-81c4-0ed903760fb0")
+	)
+	(wire
+		(pts
+			(xy 258.445 54.61) (xy 258.445 58.42)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "8e4dc6d5-e5ba-4ed8-b0ba-055b61234ab4")
+	)
+	(wire
+		(pts
+			(xy 96.901 58.42) (xy 96.901 60.071)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e6d8a46-93bd-45a6-8ed7-3ce7d4299114")
+	)
+	(wire
+		(pts
+			(xy 56.515 58.42) (xy 58.166 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f22847e-d90b-43c4-b2e3-f17bb8637f61")
+	)
+	(wire
+		(pts
+			(xy 123.825 58.42) (xy 125.476 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9121fc19-cc29-4749-9303-e3e696de2f5a")
+	)
+	(wire
+		(pts
+			(xy 229.87 58.42) (xy 231.521 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "933f340e-b7b1-4ece-ac62-090900906ede")
+	)
+	(wire
+		(pts
+			(xy 231.521 58.42) (xy 233.172 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95834d50-7bc2-4a05-8e3d-cb965118eb59")
+	)
+	(wire
+		(pts
+			(xy 81.788 58.42) (xy 83.439 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e2ea3df-d27f-428f-99b4-a5ce739f97e6")
+	)
+	(wire
+		(pts
+			(xy 204.597 58.42) (xy 204.597 60.071)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ff0e6fc-070b-4f07-844b-1b45f3e074d0")
+	)
+	(wire
+		(pts
+			(xy 69.977 58.42) (xy 69.977 60.071)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a104b7b8-4a3e-4efe-a7d1-b8bcf3fb1822")
+	)
+	(wire
+		(pts
+			(xy 218.059 58.42) (xy 218.059 60.071)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a72425e9-6f85-409b-873a-c1089bf56d9a")
+	)
+	(wire
+		(pts
+			(xy 110.363 54.61) (xy 110.363 58.42)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "b0b193c4-bfe1-44de-ba0c-057adf21e281")
+	)
+	(wire
+		(pts
+			(xy 43.053 58.42) (xy 44.704 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b27610e1-0c4c-4455-887c-ae0448da2c4e")
+	)
+	(wire
+		(pts
+			(xy 56.515 54.61) (xy 56.515 58.42)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "b6fd9a80-6a28-4880-b054-d2f21c08e6c7")
+	)
+	(wire
+		(pts
+			(xy 231.521 58.42) (xy 231.521 60.071)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b75c2094-dca4-4c93-987c-022c9f4e8ecc")
+	)
+	(wire
+		(pts
+			(xy 189.484 58.42) (xy 191.135 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba20d262-296f-4114-a46d-16dd4a5519dd")
+	)
+	(wire
+		(pts
+			(xy 177.673 58.42) (xy 179.324 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1b881e8-ffed-4940-8c56-aabc01f5977c")
+	)
+	(wire
+		(pts
+			(xy 162.56 58.42) (xy 164.211 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca4baed8-0e62-4f34-ad51-1f8d7da395a6")
+	)
+	(wire
+		(pts
+			(xy 41.402 58.42) (xy 43.053 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbe33999-41bf-4179-80ad-938140a88f46")
+	)
+	(wire
+		(pts
+			(xy 244.983 58.42) (xy 244.983 60.071)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2a9586e-bf0d-4665-ae0e-359b921324f5")
+	)
+	(wire
+		(pts
+			(xy 164.211 54.61) (xy 164.211 58.42)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "d2f3e9ce-85b9-4c82-8f8b-4b91ed25ef2d")
+	)
+	(wire
+		(pts
+			(xy 216.408 58.42) (xy 218.059 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddba6c31-c2ae-48fe-a00d-a36dbc574d4c")
+	)
+	(wire
+		(pts
+			(xy 29.591 58.42) (xy 31.242 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1ea94b3-183a-41d0-90d3-1bbe7cf7d938")
+	)
+	(wire
+		(pts
+			(xy 56.515 58.42) (xy 56.515 60.071)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2f0e9c6-bf66-41a7-b640-a05349471e7a")
+	)
+	(wire
+		(pts
+			(xy 204.597 54.61) (xy 204.597 58.42)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "e4ae748c-8667-4d72-9ed6-bb7d6e7536fc")
+	)
+	(wire
+		(pts
+			(xy 110.363 58.42) (xy 112.014 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e52223be-2d98-4400-8a66-40a1a23e96a4")
+	)
+	(wire
+		(pts
+			(xy 16.51 54.61) (xy 16.51 58.42)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "e9b63a49-3990-4634-91ef-ddb5d8a035b5")
+	)
+	(wire
+		(pts
+			(xy 164.211 58.42) (xy 165.862 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9f43184-af09-420a-9246-01b226f1d4b2")
+	)
+	(wire
+		(pts
+			(xy 137.287 58.42) (xy 138.938 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f53e8df7-6675-4aee-8086-1ab0133f6f05")
+	)
+	(wire
+		(pts
+			(xy 150.749 58.42) (xy 150.749 60.071)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5b47063-c725-434d-9bbc-0aff8db4e400")
+	)
+	(wire
+		(pts
+			(xy 108.712 58.42) (xy 110.363 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f678f927-e1ea-4772-8884-4f0238a5fd1d")
+	)
+	(wire
+		(pts
+			(xy 43.053 58.42) (xy 43.053 60.071)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb10d9fb-a67a-47ec-8c07-57ac9f53ba99")
+	)
+	(wire
+		(pts
+			(xy 202.946 58.42) (xy 204.597 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbd753c6-1ef7-4a7c-9eaf-86e0546e3e3e")
+	)
+	(wire
+		(pts
+			(xy 122.174 58.42) (xy 123.825 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd5211fc-36c6-416c-8d9d-e0144fee0590")
+	)
+	(wire
+		(pts
+			(xy 69.977 54.61) (xy 69.977 58.42)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "fdc18757-fee2-440a-a816-a43660394405")
+	)
+	(global_label "L_{12}-L_{13}"
+		(shape input)
+		(at 191.135 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "002ea3d9-fc5f-4c12-ae4f-4c23c3407179")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.008 44.5075 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{0}-L_{1}"
+		(shape input)
+		(at 29.591 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "21138957-25b6-4659-be02-c0d80eeb374e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.464 46.4427 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{14}-L_{15}"
+		(shape input)
+		(at 218.059 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "58f7db03-cdf9-4193-9110-45ba7d0fe7fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.932 44.5075 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{13}-L_{14}"
+		(shape input)
+		(at 204.597 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "6af0f530-2508-4229-b651-8a60fd0c94a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.47 44.5075 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{16}-L_{17}"
+		(shape input)
+		(at 244.983 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "6bfe2582-379f-46be-bfd4-5b1c749fc3a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.856 44.5075 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{3}-L_{4}"
+		(shape input)
+		(at 69.977 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "7a9ec218-48b1-44b4-b5b8-241ed9b6ebef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.85 46.4427 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{6}-L_{7}"
+		(shape input)
+		(at 110.363 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "7c971bf5-75bd-4fdf-9a24-1044bdf4ebb3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.236 46.4427 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{2}-L_{3}"
+		(shape input)
+		(at 56.515 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "7f486510-7df7-4c5d-b709-29b4b6f27716")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.388 46.4427 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{10}-L_{11}"
+		(shape input)
+		(at 164.211 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "8831a6fc-feea-4efe-b8d1-05f9f0c7690f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.084 44.5075 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{4}-L_{5}"
+		(shape input)
+		(at 83.439 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "8d2c4753-33f7-4cc7-909b-f7d01d8e3147")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.312 46.4427 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{17}-L_{0}"
+		(shape input)
+		(at 16.51 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "8f218d90-a609-44cb-be30-e4d102e3c5fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.383 45.4751 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{17}-L_{0}"
+		(shape input)
+		(at 258.445 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "95895dae-2a97-47f0-8f93-79cb958f7952")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.318 45.4751 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{9}-L_{10}"
+		(shape input)
+		(at 150.749 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "98754799-1038-426e-8171-84097c6d58df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.622 45.4751 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{11}-L_{12}"
+		(shape input)
+		(at 177.673 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "a2e9cb4a-1ff6-4dfc-b796-a8953e9bfa88")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.546 44.5075 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{5}-L_{6}"
+		(shape input)
+		(at 96.901 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "a3c64581-edd3-48a7-bd95-4a5fac239cfd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.774 46.4427 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{1}-L_{2}"
+		(shape input)
+		(at 43.053 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "a67bede6-b1f5-44db-869b-7ea9ea516f8e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.926 46.4427 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{7}-L_{8}"
+		(shape input)
+		(at 123.825 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "ab5a27e7-3b45-4615-b16c-9e02c65f865e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.698 46.4427 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{8}-L_{9}"
+		(shape input)
+		(at 137.287 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "e7dd5b52-6065-44cf-9648-d35b062a8e28")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.16 46.4427 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{15}-L_{16}"
+		(shape input)
+		(at 231.521 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "fb595380-7a8c-4379-8621-a63b959ed1dc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.394 44.5075 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 123.825 65.151 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06516ef5-2da5-40ef-9b64-a086cc98064f")
+		(property "Reference" "J7"
+			(at 122.555 68.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "243-131"
+			(at 127.254 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:243-131"
+			(at 123.825 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.825 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Pin THT 243 Series"
+			(at 123.825 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" "Wago"
+			(at 123.825 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" "243-131"
+			(at 123.825 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5986979b-5256-4d63-b61b-0cc5834a72ab")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 197.866 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "08b00fc6-3289-4003-b9f8-0a39216c2ee5")
+		(property "Reference" "L13"
+			(at 197.612 55.753 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 197.485 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 197.866 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 197.866 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 197.866 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" ""
+			(at 197.866 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" ""
+			(at 197.866 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b1a677f-a5a0-4767-96fd-2e1df4ea14a4")
+		)
+		(pin "2"
+			(uuid "7edc4b4e-91d5-42b1-940a-75af5d69793d")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "L13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 117.094 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "0f228684-8d97-4fa3-8990-ab11b0ad3c40")
+		(property "Reference" "L7"
+			(at 116.84 55.753 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 116.713 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 117.094 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 117.094 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 117.094 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" ""
+			(at 117.094 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" ""
+			(at 117.094 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1ee983d-479c-434d-96ae-88effe4bf0d2")
+		)
+		(pin "2"
+			(uuid "10c1b7ec-5144-492f-96cf-4b840fb1c5f8")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "L7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 63.246 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "140250a5-0e86-4ffd-9204-dfb8ceee156b")
+		(property "Reference" "L3"
+			(at 62.992 55.753 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 62.865 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.246 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.246 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.246 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" ""
+			(at 63.246 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" ""
+			(at 63.246 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a2db23e-9a5b-4cb2-b155-06ffd262a521")
+		)
+		(pin "2"
+			(uuid "bbdc5cea-30e3-4664-8eed-70bf0bfa98c6")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 69.977 65.151 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "170c1e6e-1a8d-4858-8de2-9e6272c1806c")
+		(property "Reference" "J3"
+			(at 68.707 68.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "243-131"
+			(at 73.406 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:243-131"
+			(at 69.977 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.977 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Pin THT 243 Series"
+			(at 69.977 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" "Wago"
+			(at 69.977 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" "243-131"
+			(at 69.977 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd359e6e-fdf1-42af-a2e6-ff90fa5ebad7")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 177.673 65.151 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cca738d-c475-40e0-b616-89ead78eddd0")
+		(property "Reference" "J11"
+			(at 176.403 68.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "243-131"
+			(at 181.102 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:243-131"
+			(at 177.673 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.673 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Pin THT 243 Series"
+			(at 177.673 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" "Wago"
+			(at 177.673 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" "243-131"
+			(at 177.673 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65fa58c1-8bf8-443a-b226-bfa3fd62eac0")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 170.942 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "2006a096-8fbf-499c-b47a-6aebb562df78")
+		(property "Reference" "L11"
+			(at 170.688 55.753 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 170.561 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.942 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.942 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.942 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" ""
+			(at 170.942 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" ""
+			(at 170.942 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a7e2c62-6a4c-4278-9356-0354e2f4c002")
+		)
+		(pin "2"
+			(uuid "efcb5e37-9ee9-4ae1-a582-a094b8cafafd")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "L11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 36.322 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "42184711-0aff-42ce-ad52-661c9e6dc088")
+		(property "Reference" "L1"
+			(at 36.068 55.753 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 35.941 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.322 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.322 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.322 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" ""
+			(at 36.322 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" ""
+			(at 36.322 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9939fa3f-798c-4fd4-b4b2-c264c329679f")
+		)
+		(pin "2"
+			(uuid "5378f205-1034-4bbe-8c6d-17b8aa8f426a")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 76.708 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "48070d4f-d4f1-4b76-aa87-a70a8716a515")
+		(property "Reference" "L4"
+			(at 76.454 55.753 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 76.327 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.708 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.708 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.708 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" ""
+			(at 76.708 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" ""
+			(at 76.708 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bebc49bf-ce64-4a62-994a-80f91da1f5cb")
+		)
+		(pin "2"
+			(uuid "08001a88-aaac-401d-a6bb-1a3c123c09fc")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 204.597 65.151 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50350971-cbf2-4352-9c9e-5a697c5f1818")
+		(property "Reference" "J13"
+			(at 203.327 68.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "243-131"
+			(at 208.026 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:243-131"
+			(at 204.597 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.597 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Pin THT 243 Series"
+			(at 204.597 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" "Wago"
+			(at 204.597 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" "243-131"
+			(at 204.597 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a1b0778-613a-46e3-8888-b001d46007a2")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 244.983 65.151 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52b3ae02-35f6-40cb-9df3-b30496014ddc")
+		(property "Reference" "J16"
+			(at 243.713 68.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "243-131"
+			(at 248.412 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:243-131"
+			(at 244.983 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 244.983 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Pin THT 243 Series"
+			(at 244.983 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" "Wago"
+			(at 244.983 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" "243-131"
+			(at 244.983 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6b5644d-4775-4f1d-bf5d-a26d94d74ed8")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 211.328 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "59bec04b-c9b7-42bc-9c0f-3d344356b81d")
+		(property "Reference" "L14"
+			(at 211.074 55.753 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 210.947 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 211.328 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 211.328 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 211.328 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" ""
+			(at 211.328 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" ""
+			(at 211.328 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e2a6ed8-10a4-4935-97bd-dfcf76e7f40e")
+		)
+		(pin "2"
+			(uuid "e71dbb5a-5919-4f80-8eba-c15f843a60d2")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "L14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 103.632 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "602272ed-17a7-44fc-9dcc-26d1ed2b563e")
+		(property "Reference" "L6"
+			(at 103.378 55.753 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 103.251 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 103.632 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 103.632 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 103.632 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" ""
+			(at 103.632 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" ""
+			(at 103.632 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e651f8d7-58fc-4f82-92bc-0db087172163")
+		)
+		(pin "2"
+			(uuid "98edaac4-3e47-43f6-80a1-88c133ae6865")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "L6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 49.784 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "6adc770b-ad46-4516-b13e-25b958bfce1a")
+		(property "Reference" "L2"
+			(at 49.53 55.753 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 49.403 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.784 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.784 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.784 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" ""
+			(at 49.784 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" ""
+			(at 49.784 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbaa055c-1206-4e8d-a083-564fac30e155")
+		)
+		(pin "2"
+			(uuid "02e43b4e-6993-4dc9-9a6c-e5a99fea51a0")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 191.135 65.151 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f2b69aa-424b-477f-a43b-b8aa248f0c80")
+		(property "Reference" "J12"
+			(at 189.865 68.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "243-131"
+			(at 194.564 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:243-131"
+			(at 191.135 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.135 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Pin THT 243 Series"
+			(at 191.135 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" "Wago"
+			(at 191.135 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" "243-131"
+			(at 191.135 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72550827-2b10-40e9-8ae7-0f6b63424e07")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 251.714 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "7c9179a4-e12a-4077-ad55-c8c86c9554e4")
+		(property "Reference" "L17"
+			(at 251.46 55.753 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 251.333 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.714 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.714 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.714 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" ""
+			(at 251.714 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" ""
+			(at 251.714 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38ab4dfd-9cd0-4e8a-91f9-58e1454617fa")
+		)
+		(pin "2"
+			(uuid "95bca092-af80-4064-ae55-4e2ca499e02a")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "L17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 22.86 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "844893d3-3b4d-4a55-932d-5e3e60985971")
+		(property "Reference" "L0"
+			(at 22.606 55.753 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 22.479 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" ""
+			(at 22.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" ""
+			(at 22.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37a4c44c-4d4d-4042-82c3-79e84ef0bce2")
+		)
+		(pin "2"
+			(uuid "701a8848-550d-40f7-a308-1f0ae0728b56")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "L0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 110.363 65.151 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f4b2696-43f7-485a-8a6c-792e93211800")
+		(property "Reference" "J6"
+			(at 109.093 68.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "243-131"
+			(at 113.792 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:243-131"
+			(at 110.363 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.363 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Pin THT 243 Series"
+			(at 110.363 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" "Wago"
+			(at 110.363 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" "243-131"
+			(at 110.363 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5a54766-c301-4305-8b8b-1e633cf3ea27")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 164.211 65.151 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e26b1b8-0e3b-4eb8-a877-8f0541e7cae1")
+		(property "Reference" "J10"
+			(at 162.941 68.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "243-131"
+			(at 167.64 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:243-131"
+			(at 164.211 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 164.211 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Pin THT 243 Series"
+			(at 164.211 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" "Wago"
+			(at 164.211 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" "243-131"
+			(at 164.211 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f22318b9-6b71-4cbe-b69e-1740304eec39")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 29.591 65.151 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a434538c-03f1-4d6d-8804-d93cf221aa44")
+		(property "Reference" "J0"
+			(at 28.321 68.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "243-131"
+			(at 18.288 65.151 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Footprints:243-131"
+			(at 29.591 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.591 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Pin THT 243 Series"
+			(at 29.591 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" "Wago"
+			(at 29.591 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" "243-131"
+			(at 29.591 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "867c9da7-03fe-4b99-85e2-6ea319d32e18")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "J0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 238.252 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "a4eed971-a425-4005-ad9a-90971b3dd390")
+		(property "Reference" "L16"
+			(at 237.998 55.753 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 237.871 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.252 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.252 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.252 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" ""
+			(at 238.252 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" ""
+			(at 238.252 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c979718-c879-456d-af57-b9e3362a1dc0")
+		)
+		(pin "2"
+			(uuid "a64e808e-be1d-4d1b-908c-ad665c9c966d")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "L16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 56.515 65.151 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2f6e6f2-72a8-41a9-853b-99355f9a1a30")
+		(property "Reference" "J2"
+			(at 55.245 68.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "243-131"
+			(at 59.944 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:243-131"
+			(at 56.515 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 56.515 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Pin THT 243 Series"
+			(at 56.515 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" "Wago"
+			(at 56.515 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" "243-131"
+			(at 56.515 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b625f8db-ff02-44f4-9bc7-5b921ebf1c83")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 231.521 65.151 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd5ca8b3-f271-4df5-bfff-8ca619eeaad3")
+		(property "Reference" "J15"
+			(at 230.251 68.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "243-131"
+			(at 234.95 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:243-131"
+			(at 231.521 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.521 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Pin THT 243 Series"
+			(at 231.521 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" "Wago"
+			(at 231.521 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" "243-131"
+			(at 231.521 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76f6da15-5a3e-40c9-a92c-167466eb66e2")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 150.749 65.151 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bfa71304-68f1-4ff1-b06e-0195ed2ee632")
+		(property "Reference" "J9"
+			(at 149.479 68.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "243-131"
+			(at 154.178 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:243-131"
+			(at 150.749 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 150.749 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Pin THT 243 Series"
+			(at 150.749 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" "Wago"
+			(at 150.749 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" "243-131"
+			(at 150.749 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8142697b-501c-44c3-a7bf-240d9f1383aa")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 144.018 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "bfc2a2d1-09b5-4348-9516-75091e47d39c")
+		(property "Reference" "L9"
+			(at 143.764 55.753 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 143.637 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.018 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.018 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.018 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" ""
+			(at 144.018 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" ""
+			(at 144.018 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccf983da-baeb-478b-b9e2-78b9e826d39b")
+		)
+		(pin "2"
+			(uuid "06daf3e3-70b0-41f2-9e8c-c022c6ac680c")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "L9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 157.48 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "c4a09911-b1fa-4b8d-addb-c5bb2bda7ae8")
+		(property "Reference" "L10"
+			(at 157.226 55.753 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 157.099 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" ""
+			(at 157.48 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" ""
+			(at 157.48 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed1638d0-6ee3-4018-a79f-35dd4c3ed812")
+		)
+		(pin "2"
+			(uuid "f6cb55ed-a7c7-4ed4-86b2-497239e055e1")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "L10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 83.439 65.151 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3d8247d-e174-4129-9fb7-0f2d76e7028d")
+		(property "Reference" "J4"
+			(at 82.169 68.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "243-131"
+			(at 86.868 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:243-131"
+			(at 83.439 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.439 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Pin THT 243 Series"
+			(at 83.439 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" "Wago"
+			(at 83.439 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" "243-131"
+			(at 83.439 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe12bf12-8bd9-46a0-80b0-ab1f5cc4e100")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 96.901 65.151 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d89e1d6e-9418-49d0-9e7d-33406d5b4476")
+		(property "Reference" "J5"
+			(at 95.631 68.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "243-131"
+			(at 100.33 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:243-131"
+			(at 96.901 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.901 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Pin THT 243 Series"
+			(at 96.901 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" "Wago"
+			(at 96.901 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" "243-131"
+			(at 96.901 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b15d512-2346-4312-904e-c501cfd044a8")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 218.059 65.151 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9189fad-066e-4acc-a808-0f9fe8d17f21")
+		(property "Reference" "J14"
+			(at 216.789 68.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "243-131"
+			(at 221.488 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:243-131"
+			(at 218.059 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.059 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Pin THT 243 Series"
+			(at 218.059 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" "Wago"
+			(at 218.059 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" "243-131"
+			(at 218.059 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5472df9c-6cbc-4eba-b1ed-0f3f184674c9")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 224.79 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "dc1dd604-1da4-4d91-8626-d0860e9be372")
+		(property "Reference" "L15"
+			(at 224.536 55.753 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 224.409 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" ""
+			(at 224.79 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" ""
+			(at 224.79 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45953c0e-6e7b-42d2-8d54-8c137ca2f397")
+		)
+		(pin "2"
+			(uuid "52181706-ab7e-4689-8377-5a10691bbd8a")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "L15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 43.053 65.151 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e381ed4d-7ccc-4612-b6f0-cf28f5dcb8a2")
+		(property "Reference" "J1"
+			(at 41.783 68.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "243-131"
+			(at 46.482 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:243-131"
+			(at 43.053 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.053 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Pin THT 243 Series"
+			(at 43.053 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" "Wago"
+			(at 43.053 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" "243-131"
+			(at 43.053 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d7fd775-a5e8-4e35-b1c8-a9a58b3d0097")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 184.404 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "e47181d8-5882-4fb1-9c22-13061a737623")
+		(property "Reference" "L12"
+			(at 184.15 55.753 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 184.023 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.404 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.404 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.404 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" ""
+			(at 184.404 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" ""
+			(at 184.404 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31b2c1ae-bfd8-4cd2-a59f-61436b70a53e")
+		)
+		(pin "2"
+			(uuid "9c0ac543-3330-4bdb-83c0-32f277428ba0")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "L12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 130.556 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "ec0e9ecf-d639-4514-98b4-deb626fee65e")
+		(property "Reference" "L8"
+			(at 130.302 55.753 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 130.175 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.556 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.556 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.556 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" ""
+			(at 130.556 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" ""
+			(at 130.556 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09014de5-5c6b-4362-8a9a-17b8a0c2148b")
+		)
+		(pin "2"
+			(uuid "c55fd641-0e72-463d-8b0e-b9b6a9392ccb")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "L8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 258.445 65.151 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "efb1c916-6e28-4f8f-b757-9645dba29e06")
+		(property "Reference" "J17"
+			(at 257.175 68.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "243-131"
+			(at 261.874 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:243-131"
+			(at 258.445 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 258.445 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Pin THT 243 Series"
+			(at 258.445 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" "Wago"
+			(at 258.445 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" "243-131"
+			(at 258.445 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b860cf9-90f8-4323-a0f3-e8c6e71d9aeb")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 90.17 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "fd70c849-f822-4ab8-9740-2e1d7a463274")
+		(property "Reference" "L5"
+			(at 89.916 55.753 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 89.789 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" ""
+			(at 90.17 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" ""
+			(at 90.17 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9393c08d-f8ba-4eb3-b70d-26748dc30131")
+		)
+		(pin "2"
+			(uuid "504370c5-256f-4272-8c71-9df09f961f53")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "L5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 137.287 65.151 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff4d1507-6ca7-47d1-818d-184c4a3b2efb")
+		(property "Reference" "J8"
+			(at 136.017 68.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "243-131"
+			(at 140.716 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:243-131"
+			(at 137.287 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.287 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Pin THT 243 Series"
+			(at 137.287 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR 1" "Wago"
+			(at 137.287 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN 1" "243-131"
+			(at 137.287 65.151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48b24bcf-fbdc-4a34-b2cd-bf6d50ff0920")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f34f6d07-61a2-4986-9aba-32143c79cbf5"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

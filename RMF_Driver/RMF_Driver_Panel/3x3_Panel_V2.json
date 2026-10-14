@@ -1,0 +1,29 @@
+{
+    "layout": {
+        "hspace": "2mm",
+        "vspace": "2mm",
+        "rows": "3",
+        "cols": "3"
+    },
+    "tabs": {
+        "type": "fixed"
+    },
+    "cuts": {
+        "type": "mousebites",
+        "drill": "0.2mm",
+        "spacing": "0.4mm"
+    },
+    "framing": {
+        "type": "frame",
+        "width": "2mm"
+    },
+    "fiducials": {
+        "type": "3fid",
+        "hoffset": "2mm",
+        "voffset": "2mm"
+    },
+    "post": {
+        "millradius": "1mm",
+        "refillzones": "True"
+    }
+}

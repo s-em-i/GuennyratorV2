@@ -1,0 +1,92 @@
+Version 4
+SymbolType CELL
+LINE Normal -144 -80 -112 -80
+LINE Normal -112 -15 -112 -80
+LINE Normal -112 6 -112 80
+LINE Normal -144 80 -112 80
+LINE Normal -126 -15 -98 -15
+LINE Normal -112 6 -98 -15
+LINE Normal -112 6 -126 -15
+LINE Normal -126 6 -98 6
+LINE Normal 144 -96 160 -96
+LINE Normal 144 0 160 0
+LINE Normal 144 96 160 96
+LINE Normal 144 80 144 96
+LINE Normal 96 -65 80 -65
+LINE Normal 96 64 96 -65
+LINE Normal 80 64 96 64
+LINE Normal 80 -65 80 64
+LINE Normal 96 -47 112 -47
+LINE Normal 96 49 112 49
+LINE Normal 144 96 -64 96
+LINE Normal -9 5 -37 5
+LINE Normal -23 -16 -37 5
+LINE Normal -23 -16 -9 5
+LINE Normal -9 -16 -37 -16
+LINE Normal -23 -32 -23 -16
+LINE Normal -23 24 -23 5
+LINE Normal 121 -24 121 -8
+LINE Normal 121 -73 121 -88
+LINE Normal 121 -32 121 -64
+LINE Normal 144 -16 121 -16
+LINE Normal 144 -80 121 -80
+LINE Normal 144 -48 121 -48
+LINE Normal 144 -16 144 -48
+LINE Normal 136 -56 121 -48
+LINE Normal 136 -41 136 -56
+LINE Normal 121 -48 136 -41
+LINE Normal 112 -16 112 -80
+LINE Normal 121 72 121 88
+LINE Normal 121 23 121 8
+LINE Normal 121 64 121 32
+LINE Normal 144 80 121 80
+LINE Normal 144 16 121 16
+LINE Normal 144 48 121 48
+LINE Normal 144 80 144 48
+LINE Normal 136 40 121 48
+LINE Normal 136 55 136 40
+LINE Normal 121 48 136 55
+LINE Normal 112 80 112 16
+LINE Normal 144 16 144 -16
+LINE Normal 144 -80 144 -96
+LINE Normal 0 -48 0 48
+LINE Normal 64 0 0 -48
+LINE Normal 0 48 64 0
+LINE Normal 64 0 80 0
+LINE Normal 144 -96 32 -96
+LINE Normal 32 -96 32 -24
+LINE Normal 32 96 32 24
+LINE Normal 88 -96 88 -64
+LINE Normal 88 64 88 96
+LINE Normal -24 -32 0 -32
+LINE Normal -24 24 0 24
+LINE Normal -72 -20 -64 -12
+LINE Normal -64 -12 -72 -4
+LINE Normal -72 0 -64 8
+LINE Normal -64 8 -72 16
+LINE Normal -64 -12 -88 -12
+LINE Normal -64 8 -88 8
+LINE Normal -64 -88 -64 96 4
+RECTANGLE Normal 160 112 -144 -112
+WINDOW 3 2 104 Center 0
+WINDOW 0 0 -130 Center 0
+SYMATTR Value TLP5701
+SYMATTR Description Photocoupler Infrared LED & Photo IC
+SYMATTR Prefix X
+SYMATTR ModelFile TLP5701.lib
+SYMATTR SpiceModel TLP5701
+PIN -144 -80 NONE 0
+PINATTR PinName 1
+PINATTR SpiceOrder 1
+PIN -144 80 NONE 0
+PINATTR PinName 3
+PINATTR SpiceOrder 2
+PIN 160 96 NONE 0
+PINATTR PinName 4
+PINATTR SpiceOrder 3
+PIN 160 0 NONE 0
+PINATTR PinName 5
+PINATTR SpiceOrder 4
+PIN 160 -96 NONE 8
+PINATTR PinName 6
+PINATTR SpiceOrder 5

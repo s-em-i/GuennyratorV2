@@ -1,0 +1,36 @@
+Version 4
+SymbolType CELL
+LINE Normal -16 -32 -48 -32
+LINE Normal -7 -24 -7 -40
+LINE Normal -7 25 -7 40
+LINE Normal -7 -16 -7 16
+LINE Normal 32 -48 32 48
+LINE Normal 32 -32 -7 -32
+LINE Normal 32 32 -7 32
+LINE Normal 16 0 -7 0
+LINE Normal 16 -32 16 0
+LINE Normal 40 9 23 9
+LINE Normal 40 -8 23 -8
+LINE Normal -16 -32 -16 32
+LINE Normal 16 0 0 -8
+LINE Normal 0 8 16 0
+LINE Normal 0 -8 0 8
+LINE Normal 32 -8 40 9
+LINE Normal 23 9 32 -8
+CIRCLE Normal -39 -48 56 48
+WINDOW 0 160 -16 Bottom 2
+WINDOW 3 160 0 Top 2
+WINDOW -1 0 0 Left 0
+SYMATTR Value DMP3008SFGQ
+SYMATTR Prefix X
+SYMATTR ModelFile DMP3008SFGQ.lib
+SYMATTR Description 30V P-CHANNEL ENHANCEMENT MODE MOSFET
+PIN 32 48 LEFT 8
+PINATTR PinName 10
+PINATTR SpiceOrder 1
+PIN -48 -32 BOTTOM 8
+PINATTR PinName 20
+PINATTR SpiceOrder 2
+PIN 32 -48 LEFT 8
+PINATTR PinName 30
+PINATTR SpiceOrder 3

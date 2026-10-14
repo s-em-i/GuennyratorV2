@@ -1,0 +1,143 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
+
+  (paper "A4")
+
+  (title_block
+    (title "RMF Driver")
+    (date "2023-01-20")
+    (rev "1")
+    (comment 1 "Rotating Magnetic Field Driver")
+  )
+
+  (lib_symbols
+  )
+
+
+  (rectangle (start 69.85 92.71) (end 232.41 154.94)
+    (stroke (width 0.5) (type dash))
+    (fill (type none))
+    (uuid 63732d72-723f-4f25-aacd-2da596d497f7)
+  )
+  (rectangle (start 93.345 19.05) (end 209.55 80.01)
+    (stroke (width 0.5) (type dash))
+    (fill (type none))
+    (uuid bfe2f80f-60f6-440e-972b-8e0edfc791bb)
+  )
+
+  (text "Lower PCB" (at 72.39 152.4 0)
+    (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
+    (uuid 22d16be7-7f62-42db-a689-10e07127929a)
+  )
+  (text "Upper PCB" (at 95.885 25.4 0)
+    (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
+    (uuid dc36f084-2774-4d59-b986-b515de993742)
+  )
+
+  (sheet (at 172.085 45.085) (size 30.48 16.51)
+    (stroke (width 0.5) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0c1588b6-b01e-481b-a9fd-9da03003f863)
+    (property "Sheetname" "Logic" (at 187.325 53.34 0)
+      (effects (font (size 2.54 2.54) bold))
+    )
+    (property "Sheetfile" "Logic.kicad_sch" (at 172.085 63.4496 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "RMF_Driver"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 132.08 127) (size 41.91 19.05)
+    (stroke (width 0.5) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 153f7898-a149-4eb8-9d60-b6b2281d2adc)
+    (property "Sheetname" "Mosfet Coil Driver" (at 153.035 137.16 0)
+      (effects (font (size 2.54 2.54) bold))
+    )
+    (property "Sheetfile" "Mosfet_Coil_Driver.kicad_sch" (at 132.08 146.8084 0)
+      (effects (font (size 1.27 1.27) bold) (justify left top) hide)
+    )
+    (instances
+      (project "RMF_Driver"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 76.2 99.695) (size 73.025 15.875)
+    (stroke (width 0.5) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 812d062b-cb89-4e76-849d-524dfd5554cf)
+    (property "Sheetname" "Power In Connectors" (at 78.105 109.855 0)
+      (effects (font (size 2.54 2.54) bold) (justify left bottom))
+    )
+    (property "Sheetfile" "PowerInConnTempSensor.kicad_sch" (at 76.2 116.3284 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "RMF_Driver"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "25"))
+      )
+    )
+  )
+
+  (sheet (at 101.6 55.245) (size 64.77 17.78)
+    (stroke (width 0.5) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid bb17b8c8-fe3c-4eca-ad5d-397c8897dba5)
+    (property "Sheetname" "Clock and Frequency Generator" (at 133.985 64.135 0)
+      (effects (font (size 2.54 2.54) bold))
+    )
+    (property "Sheetfile" "Clock_and_Frequency_Generator.kicad_sch" (at 101.6 73.6096 0)
+      (effects (font (size 1.27 1.27) bold) (justify left top) hide)
+    )
+    (instances
+      (project "RMF_Driver"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 101.6 33.02) (size 64.77 17.78)
+    (stroke (width 0.5) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c3bec2cd-2d30-4a22-ba6d-8aba5000659d)
+    (property "Sheetname" "Power Supply | Temp Sensor" (at 133.985 41.91 0)
+      (effects (font (size 2.54 2.54) bold))
+    )
+    (property "Sheetfile" "Power_Supply_Temp_Sensor.kicad_sch" (at 101.6 51.3846 0)
+      (effects (font (size 1.27 1.27) bold) (justify left bottom) hide)
+    )
+    (instances
+      (project "RMF_Driver"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 180.34 99.695) (size 40.005 15.875)
+    (stroke (width 0.5) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f34f6d07-61a2-4986-9aba-32143c79cbf5)
+    (property "Sheetname" "RMF LED Indicator" (at 200.66 107.95 0)
+      (effects (font (size 2.54 2.54) bold))
+    )
+    (property "Sheetfile" "RMF_LED_Indicator.kicad_sch" (at 180.34 119.5034 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "RMF_Driver"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "6"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

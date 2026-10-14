@@ -1,0 +1,37 @@
+{
+    "layout": {
+        "hspace": "3mm",
+        "vspace": "3mm"
+    },
+    "source": {
+        "tolerance": "0.1mm"
+    },
+    "tabs": {
+        "type": "fixed",
+        "vwidth": "4mm",
+        "hwidth": "4mm",
+        "vcount": "2",
+        "hcount": "2",
+        "cutout": "2mm"
+    },
+    "cuts": {
+        "type": "mousebites",
+        "drill": "0.2mm",
+        "spacing": "0.4mm",
+        "prolong": "2mm"
+    },
+    "framing": {
+        "type": "frame",
+        "width": "10mm",
+        "mintotalheight": "144mm"
+    },
+    "fiducials": {
+        "type": "3fid",
+        "hoffset": "2mm",
+        "voffset": "2mm"
+    },
+    "post": {
+        "millradius": "1mm",
+        "refillzones": "True"
+    }
+}

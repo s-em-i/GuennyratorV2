@@ -1,0 +1,125 @@
+(footprint "CTS_204-124" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "16-Gull Wing Lead (SMD), 4x SPDT Multi-Functional DIP Switch")
+  (tags "SMD DIP DIL PDIP SMDIP 2.54mm CTS")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 10.98) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp b8299da8-4f0b-4946-a3b9-f44404739e94)
+  )
+  (fp_text value "Val**" (at 0 11.22) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp c03610d1-9ac7-460f-83b7-8a30060a9e9a)
+  )
+  (fp_text user "1" (at 0.37 -8.22119 -90 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
+    (tstamp 1a7efc23-69dc-418b-b7ae-c1e2a352cd55)
+  )
+  (fp_text user "ON" (at 2.31 -10.02 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
+    (tstamp 1bec6d29-d32f-43b0-8e95-760148f873e6)
+  )
+  (fp_text user "4" (at 0.37 7.01881 270 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
+    (tstamp 2ee74bfd-184e-48f2-a19d-3761208ab650)
+  )
+  (fp_text user "3" (at 0.37 1.93881 270 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
+    (tstamp 6e145fe8-56c1-4d14-a4cc-384616fc8bbb)
+  )
+  (fp_text user "2" (at 0.37 -3.14119 270 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
+    (tstamp fcce8957-9fd4-46bc-b77a-031c648a1c7a)
+  )
+  (fp_rect (start -2.03 -9.65) (end 0 -5.59)
+    (stroke (width 0.12) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 8ff14d73-05cb-4fac-acd2-cfc47e3a97f9))
+  (fp_rect (start -2.03 -9.65) (end 2.03 -5.59)
+    (stroke (width 0.12) (type default)) (fill none) (layer "F.SilkS") (tstamp 14a59c1f-73d0-4bef-bc62-54c1510abbf3))
+  (fp_rect (start -2.03 -4.57) (end 0 -0.51)
+    (stroke (width 0.12) (type solid)) (fill solid) (layer "F.SilkS") (tstamp a3ee6d93-1256-4bba-b4e7-08faa37796df))
+  (fp_rect (start -2.03 -4.57) (end 2.03 -0.51)
+    (stroke (width 0.12) (type default)) (fill none) (layer "F.SilkS") (tstamp 7a4d9d81-0033-496b-a926-cbc90c426d71))
+  (fp_rect (start -2.03 0.51) (end 0 4.57)
+    (stroke (width 0.12) (type solid)) (fill solid) (layer "F.SilkS") (tstamp b9188f10-a5fc-4b63-95c1-754ac20a645f))
+  (fp_rect (start -2.03 0.51) (end 2.03 4.57)
+    (stroke (width 0.12) (type default)) (fill none) (layer "F.SilkS") (tstamp 05bd82ac-7d55-46f9-9f3f-12ea444ee00d))
+  (fp_rect (start -2.03 5.59) (end 0 9.65)
+    (stroke (width 0.12) (type solid)) (fill solid) (layer "F.SilkS") (tstamp ebb1cb28-70c1-42a8-aa0f-79d5dd941031))
+  (fp_rect (start -2.03 5.59) (end 2.03 9.65)
+    (stroke (width 0.12) (type default)) (fill none) (layer "F.SilkS") (tstamp 6e1d2f81-8d3c-492d-84b4-db176fd66853))
+  (fp_rect (start -6 -11.5) (end 6 11.5)
+    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp a1a23dc5-805e-46c1-883d-056b7291ae18))
+  (pad "1" smd rect (at -4.3 -8.89) (size 2.44 1.13) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e90a66ff-7449-4515-bec6-dd3a54c5b261))
+  (pad "2" smd rect (at -4.3 -6.35) (size 2.44 1.13) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 154cd8de-3070-4f4b-9cc5-2ac06843757f))
+  (pad "3" smd rect (at -4.3 -3.81) (size 2.44 1.13) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c5a7f72c-9ba9-4079-92b8-9ac629885a90))
+  (pad "4" smd rect (at -4.3 -1.27) (size 2.44 1.13) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 112f31cd-28e9-4772-914f-b8cb7372f419))
+  (pad "5" smd rect (at -4.3 1.27) (size 2.44 1.13) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a0dc4de5-a6f1-4404-a389-55ca7013c744))
+  (pad "6" smd rect (at -4.3 3.81) (size 2.44 1.13) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d25b2550-0fc5-45db-a15f-5a6cdec58ebd))
+  (pad "7" smd rect (at -4.3 6.35) (size 2.44 1.13) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 712e1c08-b74b-4ccd-8835-552fc54e67ee))
+  (pad "8" smd rect (at -4.3 8.89) (size 2.44 1.13) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8e1f1fc7-26f5-44f4-9b65-5ee2615520c6))
+  (pad "9" smd rect (at 4.3 8.89) (size 2.44 1.13) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0c37f4f5-2986-4e2f-96a4-a7f43566eed0))
+  (pad "10" smd rect (at 4.3 6.35) (size 2.44 1.13) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 847656ea-0e69-4af3-8093-1b817f040b33))
+  (pad "11" smd rect (at 4.3 3.81) (size 2.44 1.13) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 161bdaec-355a-404b-95b4-86b5ad1751b0))
+  (pad "12" smd rect (at 4.3 1.27) (size 2.44 1.13) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e513e522-039c-4e94-9a57-aea49a37da35))
+  (pad "13" smd rect (at 4.3 -1.27) (size 2.44 1.13) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 833c3332-cb2e-418f-9f03-637f4b4cf093))
+  (pad "14" smd rect (at 4.3 -3.81) (size 2.44 1.13) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 257496fe-59a4-4f88-8b4e-9a209150793d))
+  (pad "15" smd rect (at 4.3 -6.35) (size 2.44 1.13) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp fcbbc309-b63a-41d1-87f0-6ad2bc07db26))
+  (pad "16" smd rect (at 4.3 -8.89) (size 2.44 1.13) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0277602e-fac7-4543-ae0b-927fd3750411))
+  (group "" (id 4c56163f-c0c1-445e-b95f-c0c24b346816)
+    (members
+      0c37f4f5-2986-4e2f-96a4-a7f43566eed0
+      847656ea-0e69-4af3-8093-1b817f040b33
+    )
+  )
+  (group "" (id 7bfaca91-348e-4ebf-a81b-f09942cd7e7b)
+    (members
+      161bdaec-355a-404b-95b4-86b5ad1751b0
+      e513e522-039c-4e94-9a57-aea49a37da35
+    )
+  )
+  (group "" (id 8b638152-9514-4f65-ad9f-2b6e265a071e)
+    (members
+      257496fe-59a4-4f88-8b4e-9a209150793d
+      833c3332-cb2e-418f-9f03-637f4b4cf093
+    )
+  )
+  (group "" (id f605917a-fcf0-4eef-9d31-db330812f0c0)
+    (members
+      0277602e-fac7-4543-ae0b-927fd3750411
+      fcbbc309-b63a-41d1-87f0-6ad2bc07db26
+    )
+  )
+  (group "" (id 1b484226-dd69-4826-845f-276a8577237c)
+    (members
+      7a4d9d81-0033-496b-a926-cbc90c426d71
+      a3ee6d93-1256-4bba-b4e7-08faa37796df
+      fcce8957-9fd4-46bc-b77a-031c648a1c7a
+    )
+  )
+  (group "" (id 3e1588cf-c3ff-40dc-89ab-05e95af5fceb)
+    (members
+      2ee74bfd-184e-48f2-a19d-3761208ab650
+      6e1d2f81-8d3c-492d-84b4-db176fd66853
+      ebb1cb28-70c1-42a8-aa0f-79d5dd941031
+    )
+  )
+  (group "" (id 650276be-ab1c-4fd2-b9b7-dca9370b0722)
+    (members
+      05bd82ac-7d55-46f9-9f3f-12ea444ee00d
+      6e145fe8-56c1-4d14-a4cc-384616fc8bbb
+      b9188f10-a5fc-4b63-95c1-754ac20a645f
+    )
+  )
+  (group "" (id bb2d8629-9506-4e54-977d-a58bfc908550)
+    (members
+      14a59c1f-73d0-4bef-bc62-54c1510abbf3
+      1a7efc23-69dc-418b-b7ae-c1e2a352cd55
+      8ff14d73-05cb-4fac-acd2-cfc47e3a97f9
+    )
+  )
+  (model "${KIPRJMOD}/3D_files/204-214.step"
+    (offset (xyz 0.9 7.55 9.1))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
+)

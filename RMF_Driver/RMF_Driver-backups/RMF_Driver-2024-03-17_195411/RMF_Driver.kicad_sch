@@ -1,0 +1,120 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
+
+  (paper "A4")
+
+  (title_block
+    (title "RMF Driver")
+    (date "2023-01-20")
+    (rev "2")
+    (comment 1 "Rotating Magnetic Field Driver")
+  )
+
+  (lib_symbols
+  )
+
+
+  (circle (center 153.035 94.615) (radius 67.337)
+    (stroke (width 0.5) (type dash))
+    (fill (type none))
+    (uuid e92807c1-665b-44b4-902c-e3321e7ab724)
+  )
+
+  (text_box "ToDo's:\n- switch to 4x D-Flip Flop wit Q and ~{Q}\n- use fixed quarz oszi with 32 kHz\n- use 4x D-Flip to devide down\n- exchange to 4x SPDT switch to change clock and DIR\n- add Silk Screen Labels for Qs and ~{Q}s on each IC pin\n- add header and extra optocoupler for Tacho Out with V_{IN}\n	-> w Signal, from active clock signal\n- add two Ground Posts for the Osci Clip\n- adjust via hole from Posts to tight fit\n- seperate opto supply to buffered DC/DC In Voltage\n- add 10-20 22uF Cs to this supply\n- exchange MosFet driver with dual ones in BGA package\n- switch two Mosfets of the same kind at once to save more space\n- reduce to one pcb, idealy only on top side\nDC/DC::\n- adjust undervoltage lockouts to 4V\n- adjust L to 10µH\n- change Vout to 1.8V\n	-> change Rv of Opto LEDs to 51R\n- remove Elko and place big ceramics\n- exchange power supply to 5V LDO and dual voltage regulator for negative supply -3.3V und +3.3V\n- 5V from LDO supplys VCCI on MosFet drivers\n- buffered 12V Voltage supplys VCCA/VCCB of MosFet drivers\nLOGIC:\n- checking if AND can be replaced with NANDs -> not possible/available\n- add TVS Diodes on the Flip Flops Inputs\n- series resistors for all inputs"
+    (at 306.07 43.815 0) (size 52.705 99.695)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 5a99de66-02c8-4aa8-b3be-f846eaa0d1bc)
+  )
+
+  (sheet (at 136.525 137.16) (size 30.48 16.51)
+    (stroke (width 0.5) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0c1588b6-b01e-481b-a9fd-9da03003f863)
+    (property "Sheetname" "Logic" (at 151.765 145.415 0)
+      (effects (font (size 2.54 2.54) bold))
+    )
+    (property "Sheetfile" "Logic.kicad_sch" (at 136.525 155.5246 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "RMF_Driver"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 130.81 35.56) (size 41.91 19.05)
+    (stroke (width 0.5) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 153f7898-a149-4eb8-9d60-b6b2281d2adc)
+    (property "Sheetname" "Mosfet Coil Driver" (at 151.765 45.72 0)
+      (effects (font (size 2.54 2.54) bold))
+    )
+    (property "Sheetfile" "Mosfet_Coil_Driver.kicad_sch" (at 130.81 55.3684 0)
+      (effects (font (size 1.27 1.27) bold) (justify left top) hide)
+    )
+    (instances
+      (project "RMF_Driver"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 100.965 89.535) (size 103.505 15.875)
+    (stroke (width 0.5) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 812d062b-cb89-4e76-849d-524dfd5554cf)
+    (property "Sheetname" "Power In Terminals | Temp Sensor | Power Supply" (at 102.87 99.695 0)
+      (effects (font (size 2.54 2.54) bold) (justify left bottom))
+    )
+    (property "Sheetfile" "PowerInConnTempSensor.kicad_sch" (at 100.965 106.1684 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "RMF_Driver"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "25"))
+      )
+    )
+  )
+
+  (sheet (at 118.745 63.5) (size 64.77 17.78)
+    (stroke (width 0.5) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid bb17b8c8-fe3c-4eca-ad5d-397c8897dba5)
+    (property "Sheetname" "Clock and Frequency Generator" (at 151.13 72.39 0)
+      (effects (font (size 2.54 2.54) bold))
+    )
+    (property "Sheetfile" "Clock_and_Frequency_Generator.kicad_sch" (at 118.745 81.8646 0)
+      (effects (font (size 1.27 1.27) bold) (justify left top) hide)
+    )
+    (instances
+      (project "RMF_Driver"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 131.445 113.665) (size 40.005 15.875)
+    (stroke (width 0.5) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f34f6d07-61a2-4986-9aba-32143c79cbf5)
+    (property "Sheetname" "RMF LED Indicator" (at 151.765 121.92 0)
+      (effects (font (size 2.54 2.54) bold))
+    )
+    (property "Sheetfile" "RMF_LED_Indicator.kicad_sch" (at 131.445 133.4734 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "RMF_Driver"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "6"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

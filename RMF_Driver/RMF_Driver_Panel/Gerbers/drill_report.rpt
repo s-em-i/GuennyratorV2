@@ -1,0 +1,32 @@
+Drill report for RMF_Driver_Panel.kicad_pcb
+Created on 2023 September 26, Tuesday 17:15:28
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'RMF_Driver_Panel.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.200mm  0.0079"  (441 holes)
+    T2  0.300mm  0.0118"  (362 holes)
+    T3  0.500mm  0.0197"  (589 holes)
+    T4  0.600mm  0.0236"  (180 holes)
+    T5  0.650mm  0.0256"  (2 holes)
+    T6  1.000mm  0.0394"  (4 holes)
+    T7  1.020mm  0.0402"  (56 holes)
+    T8  1.250mm  0.0492"  (18 holes)
+    T9  1.295mm  0.0510"  (4 holes)
+    T10  6.400mm  0.2520"  (4 holes)
+
+    Total plated holes count 1660
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T11  0.200mm  0.0079"  (752 holes)
+
+    Total unplated holes count 752

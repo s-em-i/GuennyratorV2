@@ -1,0 +1,198 @@
+import FreeCAD as App
+import Part
+import Sketcher
+import Draft
+import PartDesignGui
+import numpy as np
+import math
+
+from PySide import QtGui
+
+mw=Gui.getMainWindow()
+
+c=mw.findChild(QtGui.QPlainTextEdit, "Python console")
+c.clear()
+
+r=mw.findChild(QtGui.QTextEdit, "Report view")
+r.clear()
+
+doc =  App.ActiveDocument
+
+#for obj in doc.Objects:
+#	doc.removeObject(obj.Name)
+
+
+NewBodyObj = App.ActiveDocument.addObject('PartDesign::Body', 'CoilDimensions')
+Gui.activeView().setActiveObject('pdbody', NewBodyObj)
+
+# Coil and Stator Tooth Dimensions
+# Former Tooth Width
+a=4.3
+# Former Tooth Depth
+b=25.5
+# Coil Width / Former Coil Space
+c=4.1
+#c=2.75
+# Coil Length / Former Height
+h=15.5
+#h=11.7
+# Wire Diameter without insulation
+d=0.425
+# Cross-Section of wire without insulation
+Awire=(np.pi * d * d)/4
+# Wire insulation
+cul=0.05
+# Wire Diameter with insulation
+dcul=d+cul
+rcul="%.3f" % (dcul/2)
+
+# Length of the coil leads
+llead=10
+
+# Use maximum space (fill space)
+fs=False
+fs=True
+
+if fs:	
+	zOffset=dcul/2	
+	xyOffset=dcul/2*np.tan(np.deg2rad(60))
+else:
+	zOffset=0
+	xyOffset=dcul
+
+# Maximum Turns per Layer
+NTmax=int(h/dcul)
+# Maximum Layers
+NLmax=int(c/xyOffset)
+# Turns per Layer
+NT=NTmax
+# Layers
+NL=NLmax
+
+# Maximum Total Turns
+N=NT*NL
+
+# User Values
+#N=4
+#NT=30
+#NL=8
+
+x=0
+y=0
+z=0
+coil =[App.Vector(x, -llead, z)]
+
+x=a
+y=b
+
+# Direction Up -1 Down
+dir=1
+Turns=np.arange(0,NT, 1)
+Layers=np.arange(0,NL, 1)
+Nturned=0
+
+try:
+	for L in Layers[::1]:	
+		for n in Turns[::dir]:
+			coil.append(App.Vector(-L*xyOffset, -L*xyOffset, (n*dcul+z)))
+			coil.append(App.Vector(-L*xyOffset, y+xyOffset, (n*dcul+z)))
+			coil.append(App.Vector(x+xyOffset, y+xyOffset, (n*dcul+z)))
+			coil.append(App.Vector(x+xyOffset, -L*xyOffset, (n*dcul+z)))
+			Nturned=Nturned+1
+			if Nturned >= N:			
+				raise StopIteration()
+		if (L % 2) == 0:
+			# is Even
+			z=zOffset
+		else:
+			# is Odd
+			z=0
+		Turns=np.arange(0+1,NT, 1)
+		dir=-dir*1  
+		x=x+xyOffset # +dcul
+		y=y+xyOffset # +dcul
+except StopIteration:
+	pass
+
+#coil.append(App.Vector(x+xyOffset, -L*xyOffset-llead, n*xyOffset))
+lastVector=coil.pop()
+coil.append(lastVector)
+coil.append(App.Vector(lastVector.x,lastVector.y-llead,lastVector.z))
+
+wire1 = Draft.make_wire(coil, closed=False)
+wire1.FilletRadius = rcul
+
+NewBodyObj.addObject(wire1)
+
+###
+
+NewSketch = doc.addObject("Sketcher::SketchObject", "Profile")
+NewCircle=Part.Circle()
+NewCircle.Radius=rcul
+NewSketch.addGeometry(NewCircle)
+
+NewSketch.addConstraint(Sketcher.Constraint('Coincident',0,3,-1,1)) 
+NewSketch.addConstraint(Sketcher.Constraint('Diameter', 0, dcul))
+
+NewSketch.MapMode = 'NormalToEdge'
+NewBodyObj.addObject(NewSketch)
+
+doc.recompute(None,True,True)
+NewSketch.Support = [(wire1,("Edge%d" % (len(wire1.Shape.Edges))))]
+
+CoilWrapped = doc.addObject("PartDesign::AdditivePipe", "AdditivePipe")
+CoilWrapped.Profile = NewSketch
+CoilWrapped.Spine = wire1
+CoilWrapped.Refine = True
+
+NewBodyObj.addObject(CoilWrapped)
+
+RCoil=((wire1.Length.Value/1000) *  0.01721 * 4) / (np.pi * d * d)
+CoilName="RectangularCoil_%.3fdcul_%dT_%dL_%dNT_%.2fm_%.2fOhm" % (dcul,NT,NL,Nturned,wire1.Length.Value/1000,RCoil)
+doc.recompute(None,True,True)
+SimpleCopy = doc.addObject('Part::Feature',CoilName)
+SimpleCopy.Shape= Part.getShape(CoilWrapped,'',needSubElement=False,refine=True)
+SimpleCopy.ViewObject.ShapeColor=(0.5, 0.10999999940395355, 0.0, 0.0)
+
+# Coil Data
+
+print("Maximum Turns per Layer %d" % (NTmax))
+print("Maximum Layers %d" % (NLmax))
+print("Maximum Total Turns %d" % (NTmax*NLmax))
+
+print("Turns per Layer %d" % (NT))
+print("Layers %d" % (NL))
+print("Total Turns %d" % (Nturned))
+print("Wire Length %.2f m" % (wire1.Length/1000))
+print("Coil DC Resistance %.2fOhm" % (RCoil))
+
+print("Wire Diameter without insulation %.3f mm" % (d))
+print("Wire Diameter with insulation %.3f mm" % (dcul))
+
+print("Former Coil Space %.2f mm" % (c))
+print("Maximum Coil Width %.2f mm" % (NLmax*xyOffset))
+print("Used Coil Width %.2f mm" % (NL*xyOffset))
+
+print("Former Height %.2f" % (h))
+print("Maximum Coil Height %.2f mm" % (NTmax*dcul))
+print("Used Coil Height %.2f mm" % (NT*dcul))
+
+AformerMax=NLmax*xyOffset * NTmax*xyOffset
+Aformer=NL*xyOffset * NT*xyOffset
+
+FFmax=(Awire * NLmax * NTmax * 100) / (AformerMax)
+FFused=(Awire * Nturned) * 100/ (Aformer)
+
+print("Maximum Fill Factor %.2f%%" % (FFmax))
+print("Used Fill Factor %.2f%%" % (FFused))
+
+print("Former Tooth Width %.2f mm" % (a))
+print("Former Tooth Depth %.2f mm" % (b))
+
+doc.removeObject(NewBodyObj.Name)
+doc.removeObject(wire1.Name)
+doc.removeObject(CoilWrapped.Name)
+doc.removeObject(NewSketch.Name)
+###
+#NewBodyObj.ViewObject.Visibility=False
+doc.recompute(None,True,True)

@@ -1,0 +1,134 @@
+(footprint "Oscillator_SMD_IQD_QXO-40x-4Pin_2.0x1.6mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "IQD Crystal Clock Oscillator QXO-40x, https://www.iqdfrequencyproducts.de/products/details/iqxo-40x.pdf, 2.0x1.6mm^2 package")
+	(tags "SMD SMT crystal oscillator")
+	(property "Reference" "REF**"
+		(at -0.01 -2.2 0)
+		(layer "F.SilkS")
+		(uuid "e37c3a89-fa41-46a5-9e29-896f42fec8bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0.01 2.4 0)
+		(layer "F.Fab")
+		(uuid "138d3563-f798-4325-a985-3280a5f32289")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b257a0ad-54cf-49f8-a5e1-9a49a60dca68")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a09690f7-180a-4e3e-aa3f-24f03fd10e6e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.3 -1.1)
+		(end 1.3 1.1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d5c86055-4631-42ac-8463-73f94adeb542")
+	)
+	(fp_circle
+		(center -1.3 1.1)
+		(end -1.1 1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "b2bed994-49fd-4bd5-89a1-241255c6d27e")
+	)
+	(fp_rect
+		(start -1.3 -1.1)
+		(end 1.3 1.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9aa68c88-dd81-4e56-ae71-f96d625d1340")
+	)
+	(fp_rect
+		(start -1.3 -1.1)
+		(end 1.3 1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "86b0f982-065b-47de-9225-a2e9fd23b3f6")
+	)
+	(pad "1" smd rect
+		(at -0.64 0.49)
+		(size 0.88 0.78)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ea3d33ee-f0f7-4959-9cf4-8eacb23fb503")
+	)
+	(pad "2" smd rect
+		(at 0.64 0.49)
+		(size 0.88 0.78)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "527b35f7-98f6-4893-9597-3169fa140451")
+	)
+	(pad "3" smd rect
+		(at 0.64 -0.49)
+		(size 0.88 0.78)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "34bd6f13-5b7d-46fc-af67-92e9eb5a2ddb")
+	)
+	(pad "4" smd rect
+		(at -0.64 -0.49)
+		(size 0.88 0.78)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "51ceceb4-e9ba-4eb5-9ea2-e2beb05fa144")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D_files/IQXO-402.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,7415 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "f5d48b82-8982-4599-983f-711fb2261572")
+	(paper "A4")
+	(title_block
+		(title "4 Pole Field Switcher")
+		(rev "2")
+	)
+	(lib_symbols
+		(symbol "L_RMF:L_RMF"
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L_RMF"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "RMF Inductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "L_RMF_0_1"
+				(circle
+					(center -3.048 -1.016)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.508) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 -0.508)
+					(mid -2.032 -1.0138)
+					(end -2.54 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.508 -0.508)
+					(mid -1.016 -1.0138)
+					(end -1.524 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.508 -0.508)
+					(mid 0 -1.0138)
+					(end -0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.524 -0.508)
+					(mid 1.016 -1.0138)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -0.508)
+					(mid 2.032 -1.0138)
+					(end 1.524 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_RMF_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 13.97 19.558)
+		(end 283.97 59.558)
+		(stroke
+			(width 0.5)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b52b3be7-9da7-482d-a4ce-68d247372e08")
+	)
+	(rectangle
+		(start 13.97 113.792)
+		(end 283.97 148.792)
+		(stroke
+			(width 0.5)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "cfa9b521-038d-4c4a-9fbb-0c1a147055d6")
+	)
+	(rectangle
+		(start 13.97 66.421)
+		(end 283.97 106.421)
+		(stroke
+			(width 0.5)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "dd768808-86d4-43c8-9096-d0fc365ab68c")
+	)
+	(text "NNNNN"
+		(exclude_from_sim no)
+		(at 28.067 55.499 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "333cefe4-fe85-46c4-b313-04cd8ccddb68")
+	)
+	(text "SSSS"
+		(exclude_from_sim no)
+		(at 52.832 102.616 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f226a241-6cb5-4fdb-8bc8-a9a9b8a217e2")
+	)
+	(text "SSSS"
+		(exclude_from_sim no)
+		(at 52.832 73.914 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb2ce329-6047-421e-aad7-6ef5e5580247")
+	)
+	(text "NNNNN"
+		(exclude_from_sim no)
+		(at 28.067 26.797 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "fba5b32d-06d2-4138-b6dd-d02dcf4bcb0d")
+	)
+	(junction
+		(at 256.032 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c14b5d5-cb4e-4230-88eb-00439c254953")
+	)
+	(junction
+		(at 40.64 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25ba21d8-6f43-4c00-aabf-d52229042025")
+	)
+	(junction
+		(at 229.108 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "456b3791-c90e-4353-ac96-8c6b22303318")
+	)
+	(junction
+		(at 242.57 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4943293b-f821-4ba1-8f3c-735d760a1b64")
+	)
+	(junction
+		(at 134.874 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51d24139-d46f-4f52-8ae8-ca2bbfbeace1")
+	)
+	(junction
+		(at 107.95 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61ac22cf-9e83-4ab3-89bb-d24dac88a05c")
+	)
+	(junction
+		(at 188.722 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76f71859-73cd-437c-81c3-afe4a15d0d1b")
+	)
+	(junction
+		(at 121.412 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "813c08cc-87e0-476d-b7d3-2f8bb3442d7e")
+	)
+	(junction
+		(at 67.564 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "924f71dc-8014-4e2a-b0e5-1853ca5ed2b1")
+	)
+	(junction
+		(at 215.646 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98442142-34c1-4223-9a08-5786d26e0afd")
+	)
+	(junction
+		(at 175.26 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a90ebf4-5db7-4f20-9619-d974bb5295b7")
+	)
+	(junction
+		(at 81.026 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb5077dd-0497-4065-935a-661241527fb9")
+	)
+	(junction
+		(at 202.184 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c33232b7-67db-4711-a43e-2c46129956f7")
+	)
+	(junction
+		(at 161.798 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3df9b56-f354-4d6a-ab0b-b33a04adfe43")
+	)
+	(junction
+		(at 148.336 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cce06488-2bdc-490c-a3e1-6b85b1972499")
+	)
+	(junction
+		(at 94.488 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce59c3ae-5262-48fc-bb61-d00701cd0afb")
+	)
+	(junction
+		(at 54.102 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3f20551-0726-480b-991e-5230d4254688")
+	)
+	(wire
+		(pts
+			(xy 200.025 31.623) (xy 201.295 31.623)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "008f33e9-b9c8-4ba6-b0df-9457fd0506b8")
+	)
+	(wire
+		(pts
+			(xy 146.685 134.62) (xy 148.336 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01ba7fe2-0575-47ef-aafd-a5f63026147d")
+	)
+	(wire
+		(pts
+			(xy 79.502 92.71) (xy 82.042 92.71)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "02b54484-fde6-4528-91d4-b882a5e33ff1")
+	)
+	(wire
+		(pts
+			(xy 40.767 36.703) (xy 42.037 36.703)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "045e1acc-9743-4c80-b04b-9fa2839d45dd")
+	)
+	(wire
+		(pts
+			(xy 81.026 130.81) (xy 81.026 134.62)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "06692814-e6d6-492f-b0f5-55e6644a8a05")
+	)
+	(wire
+		(pts
+			(xy 147.193 43.053) (xy 148.463 43.053)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07f934f4-abc5-4870-aa5d-3e6f8a8875f7")
+	)
+	(wire
+		(pts
+			(xy 213.995 34.163) (xy 216.535 34.163)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "08f3305b-35fb-42a7-89e8-285cec474b15")
+	)
+	(wire
+		(pts
+			(xy 105.156 92.71) (xy 106.426 92.71)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "10b9c4bd-8051-4e0b-a880-5a2ca4525d0f")
+	)
+	(wire
+		(pts
+			(xy 171.958 95.25) (xy 173.228 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10be82e8-ed65-49b9-9ac5-6029f9dd6a5b")
+	)
+	(wire
+		(pts
+			(xy 65.532 95.25) (xy 66.802 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14e54b09-25d0-41bc-be28-8a8bbf00fa7a")
+	)
+	(wire
+		(pts
+			(xy 27.559 130.81) (xy 27.559 134.62)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "2032a7d2-6e95-4d2a-b184-e24fd9700e43")
+	)
+	(wire
+		(pts
+			(xy 147.193 31.623) (xy 148.463 31.623)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20bb1c6a-783b-45e5-b7bf-21f2d5a73084")
+	)
+	(wire
+		(pts
+			(xy 161.798 130.81) (xy 161.798 134.62)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "248a7cf3-f07b-4e1a-9e31-bd5fda833a51")
+	)
+	(wire
+		(pts
+			(xy 133.223 45.593) (xy 134.493 45.593)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "26ba76b5-510f-4650-8f4c-a8afb4d62e0a")
+	)
+	(wire
+		(pts
+			(xy 105.156 81.28) (xy 106.426 81.28)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "273ae923-3267-4637-a608-589a7909cc42")
+	)
+	(wire
+		(pts
+			(xy 256.032 134.62) (xy 257.683 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "287846a0-fd53-45ec-8078-5c1f95aeeb9a")
+	)
+	(wire
+		(pts
+			(xy 171.958 83.82) (xy 173.228 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "288dad13-8458-4e20-a73a-794ef31dec29")
+	)
+	(wire
+		(pts
+			(xy 240.919 134.62) (xy 242.57 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29986b4a-847c-411e-af47-48582391767d")
+	)
+	(wire
+		(pts
+			(xy 215.646 130.81) (xy 215.646 134.62)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "2a13f4b2-a1d7-49a7-a5b8-0db5adb0dd00")
+	)
+	(wire
+		(pts
+			(xy 157.988 92.71) (xy 159.258 92.71)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "2a47233e-4f7a-4a43-a4eb-d6c92e31dac5")
+	)
+	(wire
+		(pts
+			(xy 254.381 134.62) (xy 256.032 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b33b789-35d6-4d45-8024-6bd6cfbadbac")
+	)
+	(wire
+		(pts
+			(xy 266.319 34.163) (xy 268.859 34.163)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "2bd4f56f-9ed0-441d-a0d1-92c488ed8516")
+	)
+	(wire
+		(pts
+			(xy 107.95 134.62) (xy 109.601 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bf784cd-dde7-4e93-bcea-739612df908a")
+	)
+	(wire
+		(pts
+			(xy 54.737 45.593) (xy 57.277 45.593)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "2f0fe14e-bbfd-4e25-9896-26d6ad5d2136")
+	)
+	(wire
+		(pts
+			(xy 108.331 34.163) (xy 110.871 34.163)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "33d1d887-e943-4ec4-a2f3-8d2dcec6fe29")
+	)
+	(wire
+		(pts
+			(xy 213.995 45.593) (xy 216.535 45.593)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "38204f3a-bd86-45d9-aaa7-62c46e36e43a")
+	)
+	(wire
+		(pts
+			(xy 238.76 92.71) (xy 241.3 92.71)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "3a239dd4-ef1b-4f2c-a318-9f14fff2bcc9")
+	)
+	(wire
+		(pts
+			(xy 92.837 134.62) (xy 94.488 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3afc9733-50c7-47db-9c48-33087b5d6037")
+	)
+	(wire
+		(pts
+			(xy 52.451 134.62) (xy 54.102 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db7d30a-1fcb-4f03-9d66-efa7ee469e27")
+	)
+	(wire
+		(pts
+			(xy 79.502 81.28) (xy 82.042 81.28)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "3f63a2d3-3e30-490d-a4a2-dd922876182b")
+	)
+	(wire
+		(pts
+			(xy 200.025 43.053) (xy 201.295 43.053)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ffb8045-6539-4ea0-a16e-ca1a1cb3b180")
+	)
+	(wire
+		(pts
+			(xy 224.79 78.74) (xy 226.06 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "406840b4-f06e-460a-9375-d74de01d642a")
+	)
+	(wire
+		(pts
+			(xy 80.391 34.163) (xy 81.661 34.163)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "419dcd9b-43d1-43b6-8277-d38f5adfcecb")
+	)
+	(wire
+		(pts
+			(xy 252.349 36.703) (xy 253.619 36.703)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4241e122-7697-4ea8-819f-fd64eac0673a")
+	)
+	(wire
+		(pts
+			(xy 148.336 134.62) (xy 149.987 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "432ae0e3-485f-437f-b6c7-a1ffa02d43df")
+	)
+	(wire
+		(pts
+			(xy 121.412 130.81) (xy 121.412 134.62)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "45ac6675-53c4-47ba-94e6-6275db24d4de")
+	)
+	(wire
+		(pts
+			(xy 119.126 90.17) (xy 120.396 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aec00f8-cc76-4157-8e05-40b6c7824c0b")
+	)
+	(wire
+		(pts
+			(xy 175.26 130.81) (xy 175.26 134.62)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "4b27888a-7bf0-48c5-8e09-3081d0a9dc16")
+	)
+	(wire
+		(pts
+			(xy 157.988 81.28) (xy 159.258 81.28)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "4b6ac705-b6ea-4cfe-ae77-efee2e862af7")
+	)
+	(wire
+		(pts
+			(xy 242.57 130.81) (xy 242.57 134.62)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "4d40e1df-c36d-43b2-a767-5cded395d837")
+	)
+	(wire
+		(pts
+			(xy 160.147 134.62) (xy 161.798 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e60c945-cf90-4f0d-a3f7-3ed64b0ed499")
+	)
+	(wire
+		(pts
+			(xy 252.349 48.133) (xy 253.619 48.133)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50589985-cf60-4102-8b19-823bd1dc6a94")
+	)
+	(wire
+		(pts
+			(xy 65.532 90.17) (xy 66.802 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5230bab1-6678-408e-9258-979c965960e5")
+	)
+	(wire
+		(pts
+			(xy 171.958 90.17) (xy 173.228 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54159237-6412-4100-b527-7edae40329d8")
+	)
+	(wire
+		(pts
+			(xy 200.025 48.133) (xy 201.295 48.133)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54dc1408-180e-4548-b088-dcdf498db9af")
+	)
+	(wire
+		(pts
+			(xy 133.223 34.163) (xy 134.493 34.163)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "54f746fb-423c-4e6f-a971-1249d6a45067")
+	)
+	(wire
+		(pts
+			(xy 67.564 134.62) (xy 69.215 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55243a7c-f764-4940-aea3-cc704c9e15a5")
+	)
+	(wire
+		(pts
+			(xy 161.163 34.163) (xy 163.703 34.163)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "575afe7f-c793-46ee-8009-75c2b254f98b")
+	)
+	(wire
+		(pts
+			(xy 65.913 134.62) (xy 67.564 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5969e85a-91b7-40d6-8c9c-c9c9810e0f29")
+	)
+	(wire
+		(pts
+			(xy 210.82 92.71) (xy 212.09 92.71)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "5b64a168-7c94-46f1-89fb-6b4119ea49cc")
+	)
+	(wire
+		(pts
+			(xy 40.767 43.053) (xy 42.037 43.053)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d36a03c-0398-476f-8db4-03d048649570")
+	)
+	(wire
+		(pts
+			(xy 200.533 134.62) (xy 202.184 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ddd4232-587c-4301-86d3-af05869c2690")
+	)
+	(wire
+		(pts
+			(xy 133.096 81.28) (xy 135.636 81.28)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "606ed12e-e43e-4244-8b80-f2fdf57bd41a")
+	)
+	(wire
+		(pts
+			(xy 213.995 134.62) (xy 215.646 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a75d610-1695-4599-99c3-0808100f971b")
+	)
+	(wire
+		(pts
+			(xy 119.126 78.74) (xy 120.396 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dacf9d7-3f4a-4337-bf81-2b57229cd72b")
+	)
+	(wire
+		(pts
+			(xy 40.767 31.623) (xy 42.037 31.623)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e834c1b-e3ec-41e2-8c25-656f7ce74365")
+	)
+	(wire
+		(pts
+			(xy 51.562 81.28) (xy 52.832 81.28)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "70a8602e-a9c3-46ec-9e72-e56e7b423d04")
+	)
+	(wire
+		(pts
+			(xy 94.361 43.053) (xy 95.631 43.053)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72610cb3-00c7-4e85-bcd2-8ce01697edba")
+	)
+	(wire
+		(pts
+			(xy 202.184 134.62) (xy 203.835 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74927421-e097-421c-83d8-c17d98da9fc5")
+	)
+	(wire
+		(pts
+			(xy 94.361 48.133) (xy 95.631 48.133)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "770a7880-e06d-4382-b184-05e7172f13b8")
+	)
+	(wire
+		(pts
+			(xy 107.95 130.81) (xy 107.95 134.62)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "7a4704d2-7e63-4b70-ad9a-672e8469b0e3")
+	)
+	(wire
+		(pts
+			(xy 256.032 130.81) (xy 256.032 134.62)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "7c86cb17-abcf-4a13-82b4-f03cc6a5b52e")
+	)
+	(wire
+		(pts
+			(xy 27.559 134.62) (xy 28.829 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7da9a9f2-2571-4320-9dcc-bbca721b2795")
+	)
+	(wire
+		(pts
+			(xy 54.102 130.81) (xy 54.102 134.62)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "8089f3af-da5a-4dc0-b9ff-177d065a5601")
+	)
+	(wire
+		(pts
+			(xy 224.79 83.82) (xy 226.06 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8350d885-0450-431d-9a13-3108cd0bc09f")
+	)
+	(wire
+		(pts
+			(xy 40.767 48.133) (xy 42.037 48.133)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8873c4b3-5d58-4cfa-a00f-10e957827f8a")
+	)
+	(wire
+		(pts
+			(xy 133.223 134.62) (xy 134.874 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89b0e99c-072e-4d2f-bc02-4b161968fba2")
+	)
+	(wire
+		(pts
+			(xy 187.071 134.62) (xy 188.722 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c93873e-042c-463e-ab1f-ca3b46205a42")
+	)
+	(wire
+		(pts
+			(xy 67.564 130.81) (xy 67.564 134.62)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "8d87069f-7c1d-4b09-b928-bd12da6c82dc")
+	)
+	(wire
+		(pts
+			(xy 148.336 130.81) (xy 148.336 134.62)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "90cf800e-9a88-4317-a17a-55b99e882420")
+	)
+	(wire
+		(pts
+			(xy 119.126 83.82) (xy 120.396 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "928eed4a-1a41-4640-a048-2bbc7094f920")
+	)
+	(wire
+		(pts
+			(xy 252.349 31.623) (xy 253.619 31.623)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93739c73-65f7-4ebb-aaf4-4b5c4ffbbb3a")
+	)
+	(wire
+		(pts
+			(xy 40.64 134.62) (xy 42.291 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93c83a8a-3953-4d02-97a8-b81ceb23245e")
+	)
+	(wire
+		(pts
+			(xy 79.375 134.62) (xy 81.026 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9612fbc7-5227-4790-9332-e1e9334f319d")
+	)
+	(wire
+		(pts
+			(xy 188.722 130.81) (xy 188.722 134.62)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "9676324f-583f-406b-b33a-df89a6cf3d9b")
+	)
+	(wire
+		(pts
+			(xy 119.761 134.62) (xy 121.412 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96e6a546-69d0-46d8-a0f1-9cce2091bb91")
+	)
+	(wire
+		(pts
+			(xy 108.331 45.593) (xy 110.871 45.593)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "97410784-4e39-47a5-b0ba-f3799ecd8e05")
+	)
+	(wire
+		(pts
+			(xy 80.391 45.593) (xy 81.661 45.593)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "994037a4-b421-46e9-95bf-99db4171a1c5")
+	)
+	(wire
+		(pts
+			(xy 65.532 78.74) (xy 66.802 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99bb2aa0-61a6-4bc4-bcb2-50a358a7fac2")
+	)
+	(wire
+		(pts
+			(xy 252.349 43.053) (xy 253.619 43.053)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c755217-2c71-45cd-908a-440ba759a6ba")
+	)
+	(wire
+		(pts
+			(xy 26.797 45.593) (xy 28.067 45.593)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "9ccd1b1d-0974-42a6-9824-664897ae1870")
+	)
+	(wire
+		(pts
+			(xy 269.494 130.81) (xy 269.494 134.62)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "9e179934-103d-4b9c-9e19-b43e169ecd4f")
+	)
+	(wire
+		(pts
+			(xy 267.843 134.62) (xy 269.494 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7971e56-d118-45f3-b621-02a7a84ce5c5")
+	)
+	(wire
+		(pts
+			(xy 202.184 130.81) (xy 202.184 134.62)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "a8a9dd43-a1f5-4cec-80f9-95a36a165c5a")
+	)
+	(wire
+		(pts
+			(xy 81.026 134.62) (xy 82.677 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ae4f69-f038-4bfc-bbae-e8d1980434a9")
+	)
+	(wire
+		(pts
+			(xy 40.64 130.81) (xy 40.64 134.62)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "a94e57d7-8fe8-4dae-86d6-5bac1b11fda0")
+	)
+	(wire
+		(pts
+			(xy 161.798 134.62) (xy 163.449 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa2e17f1-93d4-40b8-9b59-1647d101779e")
+	)
+	(wire
+		(pts
+			(xy 94.488 130.81) (xy 94.488 134.62)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "aa35d17c-a9cc-4191-8e47-5de0eafea461")
+	)
+	(wire
+		(pts
+			(xy 134.874 134.62) (xy 136.525 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaeb23d0-e3c1-40fd-a8fd-65df7ab0b055")
+	)
+	(wire
+		(pts
+			(xy 121.412 134.62) (xy 123.063 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad02e33a-f035-476d-b31e-bd4f72d04d5b")
+	)
+	(wire
+		(pts
+			(xy 54.102 134.62) (xy 55.753 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad7e7ca6-aa4e-44a5-a4a8-49e7821864a7")
+	)
+	(wire
+		(pts
+			(xy 224.79 95.25) (xy 226.06 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0d5e9da-edcb-4cb3-8fca-a7aae7c8d246")
+	)
+	(wire
+		(pts
+			(xy 134.874 130.81) (xy 134.874 134.62)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "b1e72724-97cb-4360-9af1-1df839be9f29")
+	)
+	(wire
+		(pts
+			(xy 65.532 83.82) (xy 66.802 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b257e3ac-fcc1-4921-a866-e7fdc3b79e4e")
+	)
+	(wire
+		(pts
+			(xy 38.989 134.62) (xy 40.64 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4f9a586-362c-45e2-b204-fcdc6ca6ed7a")
+	)
+	(wire
+		(pts
+			(xy 200.025 36.703) (xy 201.295 36.703)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5ed3a2a-edeb-41dd-ad20-9d1ce7dc082e")
+	)
+	(wire
+		(pts
+			(xy 26.797 34.163) (xy 28.067 34.163)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "b5fdc2aa-6c5d-46a1-bf89-f69cbd89e5bf")
+	)
+	(wire
+		(pts
+			(xy 94.488 134.62) (xy 96.139 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b701a405-6b46-4ff9-afab-a9ac4e6350e7")
+	)
+	(wire
+		(pts
+			(xy 188.722 134.62) (xy 190.373 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8d1a35b-87ee-4142-8059-cb9f6ebf75c9")
+	)
+	(wire
+		(pts
+			(xy 94.361 31.623) (xy 95.631 31.623)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b95a1993-0c46-4020-8e7d-fb4ab47224c0")
+	)
+	(wire
+		(pts
+			(xy 185.928 92.71) (xy 188.468 92.71)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "b9984e3d-6762-48c2-bbf5-445f8466fcc0")
+	)
+	(wire
+		(pts
+			(xy 133.096 92.71) (xy 135.636 92.71)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "baab203a-7897-4ca3-adfe-e4e9d6677ef8")
+	)
+	(wire
+		(pts
+			(xy 94.361 36.703) (xy 95.631 36.703)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd154a4f-1e3b-4cb5-8981-49a4cedbd2eb")
+	)
+	(wire
+		(pts
+			(xy 229.108 134.62) (xy 230.759 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be4b196b-0107-4318-a826-c185d5690346")
+	)
+	(wire
+		(pts
+			(xy 161.163 45.593) (xy 163.703 45.593)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "c227b922-473f-47da-9294-37e8662ddfae")
+	)
+	(wire
+		(pts
+			(xy 106.299 134.62) (xy 107.95 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c351edbc-37c6-4b80-bc46-082dc08b34c1")
+	)
+	(wire
+		(pts
+			(xy 173.609 134.62) (xy 175.26 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c401c2b8-0566-4270-8551-d69ee6ba6e34")
+	)
+	(wire
+		(pts
+			(xy 229.108 130.81) (xy 229.108 134.62)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "c620948a-fae2-44c5-b260-1485230f474e")
+	)
+	(wire
+		(pts
+			(xy 215.646 134.62) (xy 217.297 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9621cde-0055-41c3-9307-0c8b9755f8a2")
+	)
+	(wire
+		(pts
+			(xy 171.958 78.74) (xy 173.228 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0558b0a-0032-4c8d-9a8f-3504624f05a6")
+	)
+	(wire
+		(pts
+			(xy 54.737 34.163) (xy 57.277 34.163)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "d198e01b-6dbc-449c-8eef-76079469b230")
+	)
+	(wire
+		(pts
+			(xy 175.26 134.62) (xy 176.911 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d28bb2b7-8e7e-4b61-b1fc-8eb62c7a6a44")
+	)
+	(wire
+		(pts
+			(xy 185.928 81.28) (xy 188.468 81.28)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "d64a7d47-3fe7-41a6-950d-1d8611ad1514")
+	)
+	(wire
+		(pts
+			(xy 186.055 45.593) (xy 187.325 45.593)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "d7ca326c-e55c-4818-a825-184455f47924")
+	)
+	(wire
+		(pts
+			(xy 224.79 90.17) (xy 226.06 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db7bda83-7d1c-495b-ba33-56d96fd9eded")
+	)
+	(wire
+		(pts
+			(xy 227.457 134.62) (xy 229.108 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dba3dc83-4192-4e3d-b6e0-57d1e33e08ef")
+	)
+	(wire
+		(pts
+			(xy 186.055 34.163) (xy 187.325 34.163)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "dcfb7ef5-e35e-414c-8381-1c5801501153")
+	)
+	(wire
+		(pts
+			(xy 238.379 34.163) (xy 239.649 34.163)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "dee455b9-15b1-4b3f-9ee9-0046c353b568")
+	)
+	(wire
+		(pts
+			(xy 238.76 81.28) (xy 241.3 81.28)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "e8c89023-147e-4394-8b9b-28462f9b81fb")
+	)
+	(wire
+		(pts
+			(xy 266.319 45.593) (xy 268.859 45.593)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "eefb71a6-2f62-40e0-a4a6-ee9f5ca38401")
+	)
+	(wire
+		(pts
+			(xy 147.193 36.703) (xy 148.463 36.703)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f06cc37f-46f1-4639-86d2-b3e27b30402c")
+	)
+	(wire
+		(pts
+			(xy 51.562 92.71) (xy 52.832 92.71)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "f289bc68-7231-495d-8d1d-4d8fd4132fb6")
+	)
+	(wire
+		(pts
+			(xy 210.82 81.28) (xy 212.09 81.28)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "f2c3ae30-2f28-4dd6-a180-68647e9afeff")
+	)
+	(wire
+		(pts
+			(xy 238.379 45.593) (xy 239.649 45.593)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "f3ba5a71-f871-4f52-a89b-fc11061f398e")
+	)
+	(wire
+		(pts
+			(xy 147.193 48.133) (xy 148.463 48.133)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f45c7431-2aa4-4f8c-bf31-89cafbfcf58c")
+	)
+	(wire
+		(pts
+			(xy 119.126 95.25) (xy 120.396 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f45d28d4-3eba-476f-be0f-a5e6417bee61")
+	)
+	(wire
+		(pts
+			(xy 242.57 134.62) (xy 244.221 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb1d2b0a-d621-4e8b-ba50-146b7e36e0de")
+	)
+	(global_label "~{Q}_{8}"
+		(shape input)
+		(at 210.82 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "007b89a8-cd41-4052-8dd5-26efb8962680")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.7244 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "L_{2}-L_{3}"
+		(shape input)
+		(at 67.564 130.81 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "00db17a6-6e29-42b2-9a77-af8ef78419a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.437 122.6427 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "~{Q}_{6}"
+		(shape input)
+		(at 105.156 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "06b18736-c6ea-4541-8338-fa71c26c7f29")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.0604 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "~{Q}_{2}"
+		(shape input)
+		(at 133.223 34.163 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "07fe556b-d1cc-406c-a066-304778c9f145")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.1274 34.163 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "L_{0}-L_{1}"
+		(shape output)
+		(at 110.871 34.163 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "0b3be988-7316-4ff6-9372-15ae2eb52637")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.0383 34.036 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Q_{1}"
+		(shape input)
+		(at 105.156 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "0cf51062-9b8f-45b3-970b-d2b9872d4727")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.0604 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Q_{0}"
+		(shape input)
+		(at 51.562 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "103a9a0f-7d81-4a79-a309-c51064e8b5b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.4664 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "L_{8}-L_{9}"
+		(shape input)
+		(at 148.336 130.81 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "11a70212-eb10-42c9-8253-d6340a61c328")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.209 122.6427 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{15}-L_{16}"
+		(shape output)
+		(at 188.468 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "12479a01-e044-4d5b-8984-1bfbcbbffd6c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.5705 92.583 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{1}-L_{2}"
+		(shape output)
+		(at 163.703 34.163 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "1346981a-7069-4c2b-92d0-341ab32512d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.8703 34.036 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{16}-L_{17}"
+		(shape output)
+		(at 241.3 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "17615936-df08-480b-9ece-297615d820b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.4025 92.583 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{13}-L_{14}"
+		(shape input)
+		(at 215.646 130.81 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "1b8037cc-9ab7-42c8-b12e-9d5aadc55631")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.519 120.7075 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{5}-L_{6}"
+		(shape input)
+		(at 107.95 130.81 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "231c98f2-8227-4ef0-8f53-ece1763bda5d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.823 122.6427 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{14}-L_{15}"
+		(shape input)
+		(at 229.108 130.81 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "2511b3e4-348e-4f24-9717-256386388e4c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.981 120.7075 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{5}-L_{6}"
+		(shape output)
+		(at 135.636 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "2eef0256-e5f0-458d-9094-8a2b322e722e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.8033 81.153 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "~{Q}_{4}"
+		(shape input)
+		(at 238.379 34.163 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "2fe4fb7f-e09d-4387-8277-1dcb9228673a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.2834 34.163 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "L_{8}-L_{9}"
+		(shape output)
+		(at 57.277 45.593 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "3289591d-a789-44c4-811d-be486d7d4e48")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 65.4443 45.466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{15}-L_{16}"
+		(shape input)
+		(at 242.57 130.81 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "3b4b68c7-2392-4b91-8bbb-5a5d6fd7b922")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.443 120.7075 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Q_{8}"
+		(shape input)
+		(at 238.379 45.593 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "43fa02ec-7b20-4be2-8288-9243040a97d6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.2834 45.593 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "~{Q}_{5}"
+		(shape input)
+		(at 51.562 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "44cbadcc-5036-445b-8540-b58889055c47")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.4664 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "L_{9}-L_{10}"
+		(shape input)
+		(at 161.798 130.81 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "4aac08b3-dd1e-4de9-9623-74080b8b12fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.671 121.6751 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{10}-L_{11}"
+		(shape input)
+		(at 175.26 130.81 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "4be2fcd6-70ff-4ebc-9d42-aa86e6cc2cea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.133 120.7075 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{13}-L_{14}"
+		(shape output)
+		(at 82.042 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "52dfae0a-7e0c-43ed-99d1-e933830171fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.1445 92.583 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{6}-L_{7}"
+		(shape output)
+		(at 188.468 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "56ea06b9-7293-449c-a197-0a434da86568")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.6353 81.153 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Q_{2}"
+		(shape input)
+		(at 157.988 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "5fa852b1-2636-4b04-86a3-39de4ebc0d61")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.8924 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Q_{4}"
+		(shape input)
+		(at 26.797 45.593 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "628602e2-67c0-4676-95d3-782c7d4b94f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.6379 44.704 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "L_{17}-L_{0}"
+		(shape input)
+		(at 269.494 130.81 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "6a4f4bad-6d6e-403b-80a2-a5e8d5dace55")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.367 121.6751 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{4}-L_{5}"
+		(shape input)
+		(at 94.488 130.81 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "724ff194-6451-478c-b246-352c330b161f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.361 122.6427 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{3}-L_{4}"
+		(shape output)
+		(at 268.859 34.163 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "74e7b548-3267-4e66-bca7-d0d46e9880e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.0263 34.036 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{4}-L_{5}"
+		(shape output)
+		(at 82.042 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "74f05405-888f-4cd0-a094-ebeb726d2779")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.2093 81.153 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{9}-L_{10}"
+		(shape output)
+		(at 110.871 45.593 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "76e13765-69bf-4509-906b-2c262be0d5d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.0059 45.466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{14}-L_{15}"
+		(shape output)
+		(at 135.636 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "8095b4f7-0e75-41c2-9acd-8737c3ed2fb1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.7385 92.583 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{12}-L_{13}"
+		(shape output)
+		(at 268.859 45.593 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "84d4b8ce-ab4c-4134-9a55-fcc893c7f322")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 278.9615 45.466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{1}-L_{2}"
+		(shape input)
+		(at 54.102 130.81 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "8575e061-357a-42b8-838b-bbe83e8a59d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.975 122.6427 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{3}-L_{4}"
+		(shape input)
+		(at 81.026 130.81 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "9d441f73-d065-4046-99d3-e19897990b1d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.899 122.6427 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{12}-L_{13}"
+		(shape input)
+		(at 202.184 130.81 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "a7674b6a-6924-4832-9ace-cdeaec18efab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 202.057 120.7075 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{17}-L_{0}"
+		(shape output)
+		(at 57.277 34.163 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "aece7234-0cd5-4eb0-bf6a-02695016edbe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.4119 34.036 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{10}-L_{11}"
+		(shape output)
+		(at 163.703 45.593 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "b4af7700-d567-49a9-aa69-92ee5048b317")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.8055 45.466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "~{Q}_{1}"
+		(shape input)
+		(at 80.391 34.163 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "b584aa31-b689-49f6-b1cb-8d836ea3955a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.2 34.036 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "~{Q}_{3}"
+		(shape input)
+		(at 186.055 34.163 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "b8a4c3ae-bc23-46ca-b295-890e4be8f735")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.9594 34.163 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "L_{11}-L_{12}"
+		(shape input)
+		(at 188.722 130.81 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "c5348a53-4fd8-48c5-adf3-38d8d84a3bfb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.595 120.7075 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "~{Q}_{0}"
+		(shape input)
+		(at 26.797 34.163 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "c6dc37c0-80e9-48b1-b4d1-f03deedf14c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.6379 33.274 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "L_{2}-L_{3}"
+		(shape output)
+		(at 216.535 34.163 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "cab348f6-f212-4e6e-852c-041cd0109ac8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.7023 34.036 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Q_{3}"
+		(shape input)
+		(at 210.82 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "ccce1a73-d728-41f0-8d50-d46e26afda2c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.7244 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "L_{6}-L_{7}"
+		(shape input)
+		(at 121.412 130.81 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "da4bfd10-c12d-4309-9a4b-ce638ea0d246")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.285 122.6427 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{7}-L_{8}"
+		(shape input)
+		(at 134.874 130.81 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "e2d6fbce-b110-4677-ae5d-9cf512cef395")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.747 122.6427 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{7}-L_{8}"
+		(shape output)
+		(at 241.3 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "e42496ba-5374-49bf-b2ad-61c8dcb1c138")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.4673 81.153 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Q_{7}"
+		(shape input)
+		(at 186.055 45.593 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "e526578b-2590-4f5e-af7d-0ba4a3e50b5e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.9594 45.593 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "L_{16}-L_{17}"
+		(shape input)
+		(at 256.032 130.81 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "ed447cb5-4981-4b3c-971b-a5579ceff8f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.905 120.7075 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Q_{5}"
+		(shape input)
+		(at 80.391 45.593 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "f2c2ba03-8c8d-4240-8c44-76f573831659")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.2 45.466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "L_{0}-L_{1}"
+		(shape input)
+		(at 40.64 130.81 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "f4d5fcde-893f-47f8-acb6-fa31f8b9fe46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.513 122.6427 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L_{11}-L_{12}"
+		(shape output)
+		(at 216.535 45.593 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "f958af65-bd00-4a50-b1e9-620409e02d3f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.6375 45.466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Q_{6}"
+		(shape input)
+		(at 133.223 45.593 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "f965a182-4ebb-421b-8871-d29e5668a5e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.1274 45.593 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "L_{17}-L_{0}"
+		(shape input)
+		(at 27.559 130.81 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "faf5fa64-795d-4a29-93c6-22108ac5c323")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.432 121.6751 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "~{Q}_{7}"
+		(shape input)
+		(at 157.988 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "fb369dc4-dd31-43f5-901b-a2a5a3d19337")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.8924 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 208.915 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "08b00fc6-3289-4003-b9f8-0a39216c2ee5")
+		(property "Reference" "L13"
+			(at 208.661 131.953 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 208.534 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.915 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.915 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 208.915 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR 1" ""
+			(at 208.915 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN 1" ""
+			(at 208.915 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b1a677f-a5a0-4767-96fd-2e1df4ea14a4")
+		)
+		(pin "2"
+			(uuid "7edc4b4e-91d5-42b1-940a-75af5d69793d")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(reference "L13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 128.143 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0f228684-8d97-4fa3-8990-ab11b0ad3c40")
+		(property "Reference" "L7"
+			(at 127.889 131.953 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 127.762 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.143 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.143 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.143 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR 1" ""
+			(at 128.143 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN 1" ""
+			(at 128.143 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e1ee983d-479c-434d-96ae-88effe4bf0d2")
+		)
+		(pin "2"
+			(uuid "10c1b7ec-5144-492f-96cf-4b840fb1c5f8")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(reference "L7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 74.295 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "140250a5-0e86-4ffd-9204-dfb8ceee156b")
+		(property "Reference" "L3"
+			(at 74.041 131.953 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 73.914 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.295 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.295 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.295 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR 1" ""
+			(at 74.295 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN 1" ""
+			(at 74.295 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a2db23e-9a5b-4cb2-b155-06ffd262a521")
+		)
+		(pin "2"
+			(uuid "bbdc5cea-30e3-4664-8eed-70bf0bfa98c6")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 181.991 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2006a096-8fbf-499c-b47a-6aebb562df78")
+		(property "Reference" "L11"
+			(at 181.737 131.953 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 181.61 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.991 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.991 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 181.991 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR 1" ""
+			(at 181.991 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN 1" ""
+			(at 181.991 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a7e2c62-6a4c-4278-9356-0354e2f4c002")
+		)
+		(pin "2"
+			(uuid "efcb5e37-9ee9-4ae1-a582-a094b8cafafd")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(reference "L11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 47.371 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "42184711-0aff-42ce-ad52-661c9e6dc088")
+		(property "Reference" "L1"
+			(at 47.117 131.953 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 46.99 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 47.371 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 47.371 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 47.371 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR 1" ""
+			(at 47.371 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN 1" ""
+			(at 47.371 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9939fa3f-798c-4fd4-b4b2-c264c329679f")
+		)
+		(pin "2"
+			(uuid "5378f205-1034-4bbe-8c6d-17b8aa8f426a")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 87.757 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "48070d4f-d4f1-4b76-aa87-a70a8716a515")
+		(property "Reference" "L4"
+			(at 87.503 131.953 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 87.376 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.757 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.757 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 87.757 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR 1" ""
+			(at 87.757 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN 1" ""
+			(at 87.757 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bebc49bf-ce64-4a62-994a-80f91da1f5cb")
+		)
+		(pin "2"
+			(uuid "08001a88-aaac-401d-a6bb-1a3c123c09fc")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 222.377 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "59bec04b-c9b7-42bc-9c0f-3d344356b81d")
+		(property "Reference" "L14"
+			(at 222.123 131.953 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 221.996 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.377 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.377 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 222.377 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR 1" ""
+			(at 222.377 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN 1" ""
+			(at 222.377 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e2a6ed8-10a4-4935-97bd-dfcf76e7f40e")
+		)
+		(pin "2"
+			(uuid "e71dbb5a-5919-4f80-8eba-c15f843a60d2")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(reference "L14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 114.681 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "602272ed-17a7-44fc-9dcc-26d1ed2b563e")
+		(property "Reference" "L6"
+			(at 114.427 131.953 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 114.3 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.681 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.681 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 114.681 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR 1" ""
+			(at 114.681 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN 1" ""
+			(at 114.681 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e651f8d7-58fc-4f82-92bc-0db087172163")
+		)
+		(pin "2"
+			(uuid "98edaac4-3e47-43f6-80a1-88c133ae6865")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(reference "L6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 60.833 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6adc770b-ad46-4516-b13e-25b958bfce1a")
+		(property "Reference" "L2"
+			(at 60.579 131.953 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 60.452 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.833 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.833 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 60.833 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR 1" ""
+			(at 60.833 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN 1" ""
+			(at 60.833 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dbaa055c-1206-4e8d-a083-564fac30e155")
+		)
+		(pin "2"
+			(uuid "02e43b4e-6993-4dc9-9a6c-e5a99fea51a0")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 262.763 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7c9179a4-e12a-4077-ad55-c8c86c9554e4")
+		(property "Reference" "L17"
+			(at 262.509 131.953 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 262.382 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.763 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.763 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 262.763 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR 1" ""
+			(at 262.763 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN 1" ""
+			(at 262.763 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38ab4dfd-9cd0-4e8a-91f9-58e1454617fa")
+		)
+		(pin "2"
+			(uuid "95bca092-af80-4064-ae55-4e2ca499e02a")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(reference "L17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 33.909 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "844893d3-3b4d-4a55-932d-5e3e60985971")
+		(property "Reference" "L0"
+			(at 33.655 131.953 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 33.528 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.909 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.909 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 33.909 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR 1" ""
+			(at 33.909 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN 1" ""
+			(at 33.909 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "37a4c44c-4d4d-4042-82c3-79e84ef0bce2")
+		)
+		(pin "2"
+			(uuid "701a8848-550d-40f7-a308-1f0ae0728b56")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(reference "L0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 249.301 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a4eed971-a425-4005-ad9a-90971b3dd390")
+		(property "Reference" "L16"
+			(at 249.047 131.953 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 248.92 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 249.301 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 249.301 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 249.301 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR 1" ""
+			(at 249.301 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN 1" ""
+			(at 249.301 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c979718-c879-456d-af57-b9e3362a1dc0")
+		)
+		(pin "2"
+			(uuid "a64e808e-be1d-4d1b-908c-ad665c9c966d")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(reference "L16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 155.067 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bfc2a2d1-09b5-4348-9516-75091e47d39c")
+		(property "Reference" "L9"
+			(at 154.813 131.953 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 154.686 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 155.067 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 155.067 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 155.067 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR 1" ""
+			(at 155.067 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN 1" ""
+			(at 155.067 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ccf983da-baeb-478b-b9e2-78b9e826d39b")
+		)
+		(pin "2"
+			(uuid "06daf3e3-70b0-41f2-9e8c-c022c6ac680c")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(reference "L9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 168.529 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c4a09911-b1fa-4b8d-addb-c5bb2bda7ae8")
+		(property "Reference" "L10"
+			(at 168.275 131.953 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 168.148 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.529 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.529 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 168.529 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR 1" ""
+			(at 168.529 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN 1" ""
+			(at 168.529 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed1638d0-6ee3-4018-a79f-35dd4c3ed812")
+		)
+		(pin "2"
+			(uuid "f6cb55ed-a7c7-4ed4-86b2-497239e055e1")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(reference "L10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 235.839 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc1dd604-1da4-4d91-8626-d0860e9be372")
+		(property "Reference" "L15"
+			(at 235.585 131.953 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 235.458 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 235.839 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 235.839 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 235.839 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR 1" ""
+			(at 235.839 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN 1" ""
+			(at 235.839 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "45953c0e-6e7b-42d2-8d54-8c137ca2f397")
+		)
+		(pin "2"
+			(uuid "52181706-ab7e-4689-8377-5a10691bbd8a")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(reference "L15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 195.453 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e47181d8-5882-4fb1-9c22-13061a737623")
+		(property "Reference" "L12"
+			(at 195.199 131.953 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 195.072 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.453 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.453 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 195.453 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR 1" ""
+			(at 195.453 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN 1" ""
+			(at 195.453 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31b2c1ae-bfd8-4cd2-a59f-61436b70a53e")
+		)
+		(pin "2"
+			(uuid "9c0ac543-3330-4bdb-83c0-32f277428ba0")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(reference "L12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 141.605 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ec0e9ecf-d639-4514-98b4-deb626fee65e")
+		(property "Reference" "L8"
+			(at 141.351 131.953 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 141.224 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 141.605 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 141.605 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 141.605 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR 1" ""
+			(at 141.605 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN 1" ""
+			(at 141.605 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "09014de5-5c6b-4362-8a9a-17b8a0c2148b")
+		)
+		(pin "2"
+			(uuid "c55fd641-0e72-463d-8b0e-b9b6a9392ccb")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(reference "L8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L_RMF:L_RMF")
+		(at 101.219 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fd70c849-f822-4ab8-9740-2e1d7a463274")
+		(property "Reference" "L5"
+			(at 100.965 131.953 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 100.838 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.219 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.219 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.219 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR 1" ""
+			(at 101.219 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN 1" ""
+			(at 101.219 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9393c08d-f8ba-4eb3-b70d-26748dc30131")
+		)
+		(pin "2"
+			(uuid "504370c5-256f-4272-8c71-9df09f961f53")
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(reference "L5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 253.619 39.243)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0fc9d318-b7e5-448f-a623-8ca3e8797011")
+		(property "Sheetname" "CD13"
+			(at 258.699 41.783 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CD.kicad_sch"
+			(at 253.619 49.9876 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "L_{DRV}" output
+			(at 266.319 45.593 0)
+			(uuid "83078b8e-87f4-4c02-b8bc-28a5c709317c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" input
+			(at 253.619 48.133 180)
+			(uuid "5b14888e-5cdf-45ee-b0bd-47c7789fce02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_{MOS-DRV}" input
+			(at 253.619 43.053 180)
+			(uuid "9f560b9c-2425-4672-bc5c-870ad7dc3a36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 239.649 27.813)
+		(size 12.7 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "117b1e86-564b-438a-b25e-f76e4fbf55a1")
+		(property "Sheetname" "MD4"
+			(at 243.713 30.353 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MD.kicad_sch"
+			(at 239.649 38.5576 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Q_{LS}" input
+			(at 239.649 45.593 180)
+			(uuid "a62c5e5e-6464-41d6-94ce-18471e595711")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{Q}_{HS}" input
+			(at 239.649 34.163 180)
+			(uuid "84192970-f522-49b5-b6be-0b93287f6352")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_{MOS-DRV}" output
+			(at 252.349 31.623 0)
+			(uuid "a7385a50-9f82-44f7-a307-79cf44cba5f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P_{MOS-DRV}" output
+			(at 252.349 43.053 0)
+			(uuid "e1cbc84e-e323-4f57-a711-98c0c91d39d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" output
+			(at 252.349 36.703 0)
+			(uuid "0de861eb-e359-4229-ad60-326f6fae7412")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" output
+			(at 252.349 48.133 0)
+			(uuid "d65d4396-c41c-4c3c-b087-d6afad6ca30b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(page "35")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 148.463 27.813)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1851175b-7a94-4ef1-89f9-275fa73aff3c")
+		(property "Sheetname" "CD2"
+			(at 153.543 30.353 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CD.kicad_sch"
+			(at 148.463 38.5576 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Component Class" "XXX"
+			(at 148.463 27.813 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "L_{DRV}" output
+			(at 161.163 34.163 0)
+			(uuid "63512c3f-4393-4018-baae-5173ccf4c8bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" input
+			(at 148.463 36.703 180)
+			(uuid "ee905b06-ceb0-46bf-a6f7-32e63a28f7f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_{MOS-DRV}" input
+			(at 148.463 31.623 180)
+			(uuid "abc484a5-e799-4aa4-8993-4d4b6be3d552")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.396 86.36)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1c936c74-fc6e-4c4e-b17e-75ec8d00b856")
+		(property "Sheetname" "CD15"
+			(at 125.476 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CD.kicad_sch"
+			(at 120.396 97.1046 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "L_{DRV}" output
+			(at 133.096 92.71 0)
+			(uuid "4e481fda-99ab-4722-a68d-2ce25b728fc6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" input
+			(at 120.396 95.25 180)
+			(uuid "1fa57863-44f6-42a7-a851-e5fe76f25f5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_{MOS-DRV}" input
+			(at 120.396 90.17 180)
+			(uuid "8c536f33-52ae-4f4c-936a-27011b2a2137")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(page "23")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.832 74.93)
+		(size 12.7 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1e54593e-6b68-45f3-b1ed-01e264438e4f")
+		(property "Sheetname" "MD5"
+			(at 56.896 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MD.kicad_sch"
+			(at 52.832 85.6746 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Q_{LS}" input
+			(at 52.832 92.71 180)
+			(uuid "3e249b85-bec8-4437-8207-043a6536c8b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{Q}_{HS}" input
+			(at 52.832 81.28 180)
+			(uuid "d6ea47ca-ba41-4efe-81a1-58b6a93d3bea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_{MOS-DRV}" output
+			(at 65.532 78.74 0)
+			(uuid "b0e33d60-9030-4d46-b05b-28d21f188221")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P_{MOS-DRV}" output
+			(at 65.532 90.17 0)
+			(uuid "ecd6b3b1-41b6-44d6-bc3f-a4581a6b52a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" output
+			(at 65.532 83.82 0)
+			(uuid "82a42ac5-45df-4953-980c-5941a0c73c96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" output
+			(at 65.532 95.25 0)
+			(uuid "6e97fed5-7d5b-4a4b-93c5-a26c7b0639cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(page "27")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.631 27.813)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2064fcdf-c9d0-484b-aaa8-91293b578dbb")
+		(property "Sheetname" "CD1"
+			(at 100.711 30.353 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CD.kicad_sch"
+			(at 95.631 38.5576 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "L_{DRV}" output
+			(at 108.331 34.163 0)
+			(uuid "e377ffa0-5352-4342-83fb-778a3fb5fb42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" input
+			(at 95.631 36.703 180)
+			(uuid "60918fbd-5ee9-4a07-996a-60be119d0db6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_{MOS-DRV}" input
+			(at 95.631 31.623 180)
+			(uuid "90aa9b23-2954-4f5d-a320-18070148941d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.631 39.243)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "342a94b1-acf1-4fdc-8f23-8d450141b643")
+		(property "Sheetname" "CD10"
+			(at 100.711 41.783 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CD.kicad_sch"
+			(at 95.631 49.9876 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "L_{DRV}" output
+			(at 108.331 45.593 0)
+			(uuid "bfae83a8-de85-4882-9aa7-10b3e96000ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" input
+			(at 95.631 48.133 180)
+			(uuid "09bc0262-95fd-4f30-a6a2-352ef00bfd56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_{MOS-DRV}" input
+			(at 95.631 43.053 180)
+			(uuid "50213a8e-775a-4df7-8454-471e8ae59993")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 159.258 74.93)
+		(size 12.7 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "45f46a8f-239d-407f-ace5-8338ba827934")
+		(property "Sheetname" "MD7"
+			(at 163.322 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MD.kicad_sch"
+			(at 159.258 85.6746 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Q_{LS}" input
+			(at 159.258 92.71 180)
+			(uuid "89358d1a-6c45-4f1f-b623-e805f3483b59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{Q}_{HS}" input
+			(at 159.258 81.28 180)
+			(uuid "c18d1176-b4ef-42b1-b22e-922b49396a75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_{MOS-DRV}" output
+			(at 171.958 78.74 0)
+			(uuid "597905cf-5b61-43de-8820-61940c162b75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P_{MOS-DRV}" output
+			(at 171.958 90.17 0)
+			(uuid "3ba052d2-114d-4fc1-93f5-e02ac77f7a3b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" output
+			(at 171.958 83.82 0)
+			(uuid "3977fa59-e4fa-4710-b08f-e1751b55b4fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" output
+			(at 171.958 95.25 0)
+			(uuid "16af5220-8982-4f72-a7d7-47a167d6e951")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(page "40")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.493 27.813)
+		(size 12.7 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4db0d719-e491-429a-9400-18ab084d0be9")
+		(property "Sheetname" "MD2"
+			(at 138.557 30.353 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MD.kicad_sch"
+			(at 134.493 38.5576 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Q_{LS}" input
+			(at 134.493 45.593 180)
+			(uuid "7230d6ce-f20a-433d-b72c-b8679134c9bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{Q}_{HS}" input
+			(at 134.493 34.163 180)
+			(uuid "8cd6768f-7fcb-416b-9591-a59f24131781")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_{MOS-DRV}" output
+			(at 147.193 31.623 0)
+			(uuid "191aaa97-1899-4c66-864b-f6fe1b377a76")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P_{MOS-DRV}" output
+			(at 147.193 43.053 0)
+			(uuid "21650c5c-b97e-478d-bddc-11ba84fa18f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" output
+			(at 147.193 36.703 0)
+			(uuid "1fa4ef7d-9b55-4539-80c6-5c5bb60a4160")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" output
+			(at 147.193 48.133 0)
+			(uuid "0adcb9c3-ccdf-4653-baab-12dd19673b79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(page "29")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 212.09 74.93)
+		(size 12.7 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4f7d9c02-909f-4806-8a70-e8ffca01eba5")
+		(property "Sheetname" "MD8"
+			(at 216.154 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MD.kicad_sch"
+			(at 212.09 85.6746 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Q_{LS}" input
+			(at 212.09 92.71 180)
+			(uuid "d8cf6355-e9bd-4a8b-a476-b615f9119f28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{Q}_{HS}" input
+			(at 212.09 81.28 180)
+			(uuid "de7e8963-f6e3-42c0-8bbc-a2e0eaa4652f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_{MOS-DRV}" output
+			(at 224.79 78.74 0)
+			(uuid "5aa2f21e-61b1-4dde-8fc6-440203492c00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P_{MOS-DRV}" output
+			(at 224.79 90.17 0)
+			(uuid "3a684ceb-980d-43d2-a0de-d8e74ef13154")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" output
+			(at 224.79 83.82 0)
+			(uuid "9f8aeac6-3b5e-4339-ad8a-2eb7c8d2b125")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" output
+			(at 224.79 95.25 0)
+			(uuid "a791688b-9068-444a-8790-ea45914e1609")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(page "41")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 226.06 86.36)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "586fddae-29c4-4217-9239-4a0f8a7ce60a")
+		(property "Sheetname" "CD17"
+			(at 231.14 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CD.kicad_sch"
+			(at 226.06 97.1046 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "L_{DRV}" output
+			(at 238.76 92.71 0)
+			(uuid "05ed46a2-59b6-4a03-bd9f-68b619f09aa2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" input
+			(at 226.06 95.25 180)
+			(uuid "a1038a1e-0d67-4de5-be5e-ff7bb5e85800")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_{MOS-DRV}" input
+			(at 226.06 90.17 180)
+			(uuid "80dd39d3-e3a3-4f75-a0ad-562df2be64a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.802 86.36)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5b7f911f-31c2-4187-819c-42380ca2d284")
+		(property "Sheetname" "CD14"
+			(at 71.882 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CD.kicad_sch"
+			(at 66.802 97.1046 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "L_{DRV}" output
+			(at 79.502 92.71 0)
+			(uuid "692ec9eb-90e8-4420-9600-50816ba7dd82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" input
+			(at 66.802 95.25 180)
+			(uuid "4d449772-b6ac-457d-a9b0-ab02b7417466")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_{MOS-DRV}" input
+			(at 66.802 90.17 180)
+			(uuid "387c216e-dce8-4049-8e14-d41192adaf9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.661 27.813)
+		(size 12.7 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5d9bd9e8-b0b1-43b8-aee0-f058cfa2671c")
+		(property "Sheetname" "MD1"
+			(at 85.725 30.353 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MD.kicad_sch"
+			(at 81.661 38.5576 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Q_{LS}" input
+			(at 81.661 45.593 180)
+			(uuid "2fe87363-44aa-4c95-bb2a-f2b8919187d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{Q}_{HS}" input
+			(at 81.661 34.163 180)
+			(uuid "d835f24b-e69c-4584-967d-b25a150edea7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_{MOS-DRV}" output
+			(at 94.361 31.623 0)
+			(uuid "a9540c2c-f1be-4a86-a363-e768d46028ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P_{MOS-DRV}" output
+			(at 94.361 43.053 0)
+			(uuid "2c19f26a-564f-41cf-b191-4af02cbafe27")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" output
+			(at 94.361 36.703 0)
+			(uuid "0ea75809-9136-44d0-bfa1-d4879d48919e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" output
+			(at 94.361 48.133 0)
+			(uuid "4a7f3a4d-e7a3-4e5a-8f8d-eea8bb7b8d9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(page "26")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.396 74.93)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5e828933-7329-433a-97a1-473327bb32e7")
+		(property "Sheetname" "CD6"
+			(at 125.476 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CD.kicad_sch"
+			(at 120.396 85.6746 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "L_{DRV}" output
+			(at 133.096 81.28 0)
+			(uuid "1bb429de-7449-43a1-b455-de0d0bbe5ef8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" input
+			(at 120.396 83.82 180)
+			(uuid "6af4aa7c-9afa-494e-a338-ca06e671ebbb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_{MOS-DRV}" input
+			(at 120.396 78.74 180)
+			(uuid "e0d6a6a9-4ac0-4558-ba20-c6d45198d758")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 42.037 39.243)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "710a6f08-3a24-4176-b059-a76b35f8e552")
+		(property "Sheetname" "CD9"
+			(at 47.117 41.783 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CD.kicad_sch"
+			(at 42.037 49.9876 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "L_{DRV}" output
+			(at 54.737 45.593 0)
+			(uuid "4ceaf32f-f3ac-4e2c-883c-ab43f189d733")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" input
+			(at 42.037 48.133 180)
+			(uuid "dc6f7a74-7321-4946-87a2-87eb8f1f6cbb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_{MOS-DRV}" input
+			(at 42.037 43.053 180)
+			(uuid "41b156b3-5792-4ac8-8bbe-265eb8306b36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 148.463 39.243)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "825b8329-7dd2-487f-8ec0-d53e5795c17e")
+		(property "Sheetname" "CD11"
+			(at 153.543 41.783 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CD.kicad_sch"
+			(at 148.463 49.9876 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "L_{DRV}" output
+			(at 161.163 45.593 0)
+			(uuid "b383986b-ea7a-45f8-8cd2-b6e256d1fdcd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" input
+			(at 148.463 48.133 180)
+			(uuid "820df171-16ba-4cd0-80b4-7a162e41fbe2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_{MOS-DRV}" input
+			(at 148.463 43.053 180)
+			(uuid "bee8dc7b-e1d0-4cad-bc59-06494462435f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 201.295 27.813)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8536f6ba-e6ad-46e9-a350-1c29b4acb3ba")
+		(property "Sheetname" "CD3"
+			(at 206.375 30.353 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CD.kicad_sch"
+			(at 201.295 38.5576 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "L_{DRV}" output
+			(at 213.995 34.163 0)
+			(uuid "595fcbcf-027e-4786-bdf8-e2401c6b8661")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" input
+			(at 201.295 36.703 180)
+			(uuid "1dd41367-f9a2-406c-a1c0-9c92a59b3ff4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_{MOS-DRV}" input
+			(at 201.295 31.623 180)
+			(uuid "761e3d19-eb5b-496d-a96d-7644b8d88d97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 201.295 39.243)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "911190e3-f92e-4942-bc9b-b6d6d569d081")
+		(property "Sheetname" "CD12"
+			(at 206.375 41.783 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CD.kicad_sch"
+			(at 201.295 49.9876 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "L_{DRV}" output
+			(at 213.995 45.593 0)
+			(uuid "f74bba2b-a254-4cb6-993c-13cc4413a343")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" input
+			(at 201.295 48.133 180)
+			(uuid "3b81fae2-d7ec-4d51-bbd6-b0efd867e1ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_{MOS-DRV}" input
+			(at 201.295 43.053 180)
+			(uuid "c722ac93-d0e7-4e42-bbed-293f178039ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 253.619 27.813)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "994fb38e-550c-466a-bc16-73d9c9b6b83b")
+		(property "Sheetname" "CD4"
+			(at 258.699 30.353 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CD.kicad_sch"
+			(at 253.619 38.5576 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "L_{DRV}" output
+			(at 266.319 34.163 0)
+			(uuid "cd584b7c-de0d-4fa4-a404-1a27b611e25c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" input
+			(at 253.619 36.703 180)
+			(uuid "13fc8247-5d17-4f06-81ca-419871282def")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_{MOS-DRV}" input
+			(at 253.619 31.623 180)
+			(uuid "b6967cfa-59c4-44d7-a75e-02e1db87f6db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 42.037 27.813)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9b71d0ae-0738-4b5b-8b5f-237786c01ebf")
+		(property "Sheetname" "CD0"
+			(at 47.117 30.353 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CD.kicad_sch"
+			(at 42.037 38.5576 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "L_{DRV}" output
+			(at 54.737 34.163 0)
+			(uuid "fc2c0979-7250-488a-b995-d22f050e754f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P_{MOS-DRV}" input
+			(at 42.037 31.623 180)
+			(uuid "963c2335-7dec-4614-a6c0-2d37b957f5ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "N_{MOS-DRV}" input
+			(at 42.037 36.703 180)
+			(uuid "ce71081d-f86b-459b-889b-ec637a38ec47")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.426 74.93)
+		(size 12.7 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "abd385f0-9d9b-43b2-a6dd-8f11c0ee2aac")
+		(property "Sheetname" "MD6"
+			(at 110.49 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MD.kicad_sch"
+			(at 106.426 85.6746 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Q_{LS}" input
+			(at 106.426 92.71 180)
+			(uuid "f1bd14f6-205d-4d8f-8caa-ab4ea559d4b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{Q}_{HS}" input
+			(at 106.426 81.28 180)
+			(uuid "e71db064-8d2d-4c1a-8da4-fe5d33a82820")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_{MOS-DRV}" output
+			(at 119.126 78.74 0)
+			(uuid "547c74c2-77a3-448d-8a82-f72e5ceec483")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P_{MOS-DRV}" output
+			(at 119.126 90.17 0)
+			(uuid "3d009fdc-4066-4733-881d-f93e9d7db9e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" output
+			(at 119.126 83.82 0)
+			(uuid "29e10b25-43ed-4778-81f2-2e700f7dbf12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" output
+			(at 119.126 95.25 0)
+			(uuid "0443a088-f807-48a8-bae7-926f4f043c1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(page "39")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 173.228 86.36)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "aca7ce83-5138-41aa-a3ca-0c40206a2be8")
+		(property "Sheetname" "CD16"
+			(at 178.308 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CD.kicad_sch"
+			(at 173.228 97.1046 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "L_{DRV}" output
+			(at 185.928 92.71 0)
+			(uuid "0b4ea108-7b2b-4762-bf90-75b5fedbeaad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" input
+			(at 173.228 95.25 180)
+			(uuid "fb605b59-ea16-40db-9d45-516b59f81548")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_{MOS-DRV}" input
+			(at 173.228 90.17 180)
+			(uuid "6f4c15e8-acae-405a-8c7c-5914a013a4b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.802 74.93)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b2fdb885-e2c5-43a5-8d20-fd60bd0f76dd")
+		(property "Sheetname" "CD5"
+			(at 71.882 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CD.kicad_sch"
+			(at 66.802 85.6746 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "L_{DRV}" output
+			(at 79.502 81.28 0)
+			(uuid "1fce57e4-7041-41be-917c-da957950959c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" input
+			(at 66.802 83.82 180)
+			(uuid "77234a98-495c-4ba4-977d-e65819bc4830")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_{MOS-DRV}" input
+			(at 66.802 78.74 180)
+			(uuid "410378a4-eac8-48c7-8159-98a5754e8205")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 226.06 74.93)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "be4762ee-5a45-4897-9ee1-7db482806c49")
+		(property "Sheetname" "CD8"
+			(at 231.14 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CD.kicad_sch"
+			(at 226.06 85.6746 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "L_{DRV}" output
+			(at 238.76 81.28 0)
+			(uuid "a57ef9bd-439d-466f-9017-bbfd5d4d17ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" input
+			(at 226.06 83.82 180)
+			(uuid "94c899ec-98a1-45ef-89bf-e8fa1efe1502")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_{MOS-DRV}" input
+			(at 226.06 78.74 180)
+			(uuid "e89a67f8-8411-4aff-b301-08bec4c7a20e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 173.228 74.93)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cc6abe7d-4479-40cb-a605-64431414fda4")
+		(property "Sheetname" "CD7"
+			(at 178.308 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CD.kicad_sch"
+			(at 173.228 85.6746 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "L_{DRV}" output
+			(at 185.928 81.28 0)
+			(uuid "626822fd-259d-4c96-b203-1faf4cbbf564")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" input
+			(at 173.228 83.82 180)
+			(uuid "9bd52b52-64c1-47f2-96a1-0454efa2ce30")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_{MOS-DRV}" input
+			(at 173.228 78.74 180)
+			(uuid "c35702f9-b15e-4b6f-bac7-710b05957c8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 28.067 27.813)
+		(size 12.7 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d75c2933-001f-41be-99fc-bc530dda73a8")
+		(property "Sheetname" "MD0"
+			(at 32.131 30.353 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MD.kicad_sch"
+			(at 28.067 38.5576 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Q_{LS}" input
+			(at 28.067 45.593 180)
+			(uuid "3f9e800e-beba-48a3-bafd-b0cc8bed2206")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{Q}_{HS}" input
+			(at 28.067 34.163 180)
+			(uuid "7adf068b-efa1-400e-85c7-b76f6cfc1d11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_{MOS-DRV}" output
+			(at 40.767 31.623 0)
+			(uuid "9dc70277-8901-4a26-afe0-28800ac6415e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P_{MOS-DRV}" output
+			(at 40.767 43.053 0)
+			(uuid "307b11c5-9bd6-4659-8782-1ab79d282794")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" output
+			(at 40.767 36.703 0)
+			(uuid "7c3a976c-696c-4b51-8639-2a01d444416c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" output
+			(at 40.767 48.133 0)
+			(uuid "3eef4be7-e09d-4813-896b-964ad4775995")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.325 27.813)
+		(size 12.7 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fe1324ab-752f-430d-a70e-776c54ac66c8")
+		(property "Sheetname" "MD3"
+			(at 191.389 30.353 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MD.kicad_sch"
+			(at 187.325 38.5576 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Q_{LS}" input
+			(at 187.325 45.593 180)
+			(uuid "c5be26f3-011c-45d9-ac38-a451e25caffb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{Q}_{HS}" input
+			(at 187.325 34.163 180)
+			(uuid "c9978443-4aeb-417b-83ab-9e3fb6a6c7a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_{MOS-DRV}" output
+			(at 200.025 31.623 0)
+			(uuid "031af561-2580-4f0e-baec-6d1bcb904a14")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P_{MOS-DRV}" output
+			(at 200.025 43.053 0)
+			(uuid "e00d85d2-c45e-43ae-af9b-3b00939d3ce0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" output
+			(at 200.025 36.703 0)
+			(uuid "9942e83a-f557-4bd1-9283-10312243bc2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_{MOS-DRV}" output
+			(at 200.025 48.133 0)
+			(uuid "2cf8500d-1e32-430b-aaad-ee7718a4a57b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "RMF_Driver"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/153f7898-a149-4eb8-9d60-b6b2281d2adc"
+					(page "32")
+				)
+			)
+		)
+	)
+)

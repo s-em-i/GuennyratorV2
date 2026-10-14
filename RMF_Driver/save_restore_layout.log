@@ -1,0 +1,162 @@
+11-17 20:51:12 hierpcb 49:Plugin v0.0.1 running on KiCad 9.0.6 and Python 3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) 
+[Clang 13.0.0 (clang-1300.0.29.30)] on darwin.
+11-17 20:51:12 hierpcb 20:Config file /Users/semi/Documents/Moving_Fields/RMF_Driver/GuennyratorV2/RMF_Driver/RMF_Driver.kicad_pcb.hierpcb.json not found. Creating new one.
+11-17 20:51:12 hierpcb 59:
+├─ /Logic/
+├─ 153f7898
+│  ├─ /Mosfet Coil Driver/CD13/
+│  ├─ /Mosfet Coil Driver/MD4/
+│  ├─ /Mosfet Coil Driver/CD2/
+│  ├─ /Mosfet Coil Driver/CD15/
+│  ├─ /Mosfet Coil Driver/MD5/
+│  ├─ /Mosfet Coil Driver/CD1/
+│  ├─ /Mosfet Coil Driver/CD10/
+│  ├─ /Mosfet Coil Driver/MD8/
+│  ├─ /Mosfet Coil Driver/MD2/
+│  ├─ /Mosfet Coil Driver/MD7/
+│  ├─ /Mosfet Coil Driver/CD17/
+│  ├─ /Mosfet Coil Driver/CD14/
+│  ├─ /Mosfet Coil Driver/MD1/
+│  ├─ /Mosfet Coil Driver/CD6/
+│  ├─ /Mosfet Coil Driver/CD9/
+│  ├─ /Mosfet Coil Driver/CD11/
+│  ├─ /Mosfet Coil Driver/CD3/
+│  ├─ /Mosfet Coil Driver/CD12/
+│  ├─ /Mosfet Coil Driver/CD4/
+│  ├─ /Mosfet Coil Driver/CD0/
+│  ├─ /Mosfet Coil Driver/MD6/
+│  ├─ /Mosfet Coil Driver/CD16/
+│  ├─ /Mosfet Coil Driver/CD5/
+│  ├─ /Mosfet Coil Driver/CD8/
+│  ├─ /Mosfet Coil Driver/CD7/
+│  ├─ /Mosfet Coil Driver/MD0/
+│  ├─ /Mosfet Coil Driver/MD3/
+├─ /Power In Terminals | Temp Sensor | Power Supply/
+├─ /Clock and Frequency Generator/
+├─ f34f6d07
+│  ├─ /RMF LED Indicator/LED_L2/
+│  ├─ /RMF LED Indicator/LED_L4/
+│  ├─ /RMF LED Indicator/LED_L6/
+│  ├─ /RMF LED Indicator/LED_L1/
+│  ├─ /RMF LED Indicator/LED_L11/
+│  ├─ /RMF LED Indicator/LED_L7/
+│  ├─ /RMF LED Indicator/LED_L13/
+│  ├─ /RMF LED Indicator/LED_L9/
+│  ├─ /RMF LED Indicator/LED_L16/
+│  ├─ /RMF LED Indicator/LED_L15/
+│  ├─ /RMF LED Indicator/LED_L0/
+│  ├─ /RMF LED Indicator/LED_L5/
+│  ├─ /RMF LED Indicator/LED_L8/
+│  ├─ /RMF LED Indicator/LED_L10/
+│  ├─ /RMF LED Indicator/LED_L17/
+│  ├─ /RMF LED Indicator/LED_L14/
+│  ├─ /RMF LED Indicator/LED_L12/
+│  ├─ /RMF LED Indicator/LED_L3/
+11-17 20:52:24 hierpcb 49:Plugin v0.0.1 running on KiCad 9.0.6 and Python 3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) 
+[Clang 13.0.0 (clang-1300.0.29.30)] on darwin.
+11-17 20:52:24 hierpcb 59:
+├─ /Logic/
+├─ 153f7898
+│  ├─ /Mosfet Coil Driver/CD13/
+│  ├─ /Mosfet Coil Driver/MD4/
+│  ├─ /Mosfet Coil Driver/CD2/
+│  ├─ /Mosfet Coil Driver/CD15/
+│  ├─ /Mosfet Coil Driver/MD5/
+│  ├─ /Mosfet Coil Driver/CD1/
+│  ├─ /Mosfet Coil Driver/CD10/
+│  ├─ /Mosfet Coil Driver/MD8/
+│  ├─ /Mosfet Coil Driver/MD2/
+│  ├─ /Mosfet Coil Driver/MD7/
+│  ├─ /Mosfet Coil Driver/CD17/
+│  ├─ /Mosfet Coil Driver/CD14/
+│  ├─ /Mosfet Coil Driver/MD1/
+│  ├─ /Mosfet Coil Driver/CD6/
+│  ├─ /Mosfet Coil Driver/CD9/
+│  ├─ /Mosfet Coil Driver/CD11/
+│  ├─ /Mosfet Coil Driver/CD3/
+│  ├─ /Mosfet Coil Driver/CD12/
+│  ├─ /Mosfet Coil Driver/CD4/
+│  ├─ /Mosfet Coil Driver/CD0/
+│  ├─ /Mosfet Coil Driver/MD6/
+│  ├─ /Mosfet Coil Driver/CD16/
+│  ├─ /Mosfet Coil Driver/CD5/
+│  ├─ /Mosfet Coil Driver/CD8/
+│  ├─ /Mosfet Coil Driver/CD7/
+│  ├─ /Mosfet Coil Driver/MD0/
+│  ├─ /Mosfet Coil Driver/MD3/
+├─ /Power In Terminals | Temp Sensor | Power Supply/
+├─ /Clock and Frequency Generator/
+├─ f34f6d07
+│  ├─ /RMF LED Indicator/LED_L2/
+│  ├─ /RMF LED Indicator/LED_L4/
+│  ├─ /RMF LED Indicator/LED_L6/
+│  ├─ /RMF LED Indicator/LED_L1/
+│  ├─ /RMF LED Indicator/LED_L11/
+│  ├─ /RMF LED Indicator/LED_L7/
+│  ├─ /RMF LED Indicator/LED_L13/
+│  ├─ /RMF LED Indicator/LED_L9/
+│  ├─ /RMF LED Indicator/LED_L16/
+│  ├─ /RMF LED Indicator/LED_L15/
+│  ├─ /RMF LED Indicator/LED_L0/
+│  ├─ /RMF LED Indicator/LED_L5/
+│  ├─ /RMF LED Indicator/LED_L8/
+│  ├─ /RMF LED Indicator/LED_L10/
+│  ├─ /RMF LED Indicator/LED_L17/
+│  ├─ /RMF LED Indicator/LED_L14/
+│  ├─ /RMF LED Indicator/LED_L12/
+│  ├─ /RMF LED Indicator/LED_L3/
+11-17 20:52:33 hierpcb 68:Saved.
+11-17 20:53:28 hierpcb 49:Plugin v0.0.1 running on KiCad 9.0.6 and Python 3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) 
+[Clang 13.0.0 (clang-1300.0.29.30)] on darwin.
+11-17 20:53:28 hierpcb 59:
+├─ /Logic/
+├─ 153f7898
+│  ├─ /Mosfet Coil Driver/CD13/
+│  ├─ /Mosfet Coil Driver/MD4/
+│  ├─ /Mosfet Coil Driver/CD2/
+│  ├─ /Mosfet Coil Driver/CD15/
+│  ├─ /Mosfet Coil Driver/MD5/
+│  ├─ /Mosfet Coil Driver/CD1/
+│  ├─ /Mosfet Coil Driver/CD10/
+│  ├─ /Mosfet Coil Driver/MD8/
+│  ├─ /Mosfet Coil Driver/MD2/
+│  ├─ /Mosfet Coil Driver/MD7/
+│  ├─ /Mosfet Coil Driver/CD17/
+│  ├─ /Mosfet Coil Driver/CD14/
+│  ├─ /Mosfet Coil Driver/MD1/
+│  ├─ /Mosfet Coil Driver/CD6/
+│  ├─ /Mosfet Coil Driver/CD9/
+│  ├─ /Mosfet Coil Driver/CD11/
+│  ├─ /Mosfet Coil Driver/CD3/
+│  ├─ /Mosfet Coil Driver/CD12/
+│  ├─ /Mosfet Coil Driver/CD4/
+│  ├─ /Mosfet Coil Driver/CD0/
+│  ├─ /Mosfet Coil Driver/MD6/
+│  ├─ /Mosfet Coil Driver/CD16/
+│  ├─ /Mosfet Coil Driver/CD5/
+│  ├─ /Mosfet Coil Driver/CD8/
+│  ├─ /Mosfet Coil Driver/CD7/
+│  ├─ /Mosfet Coil Driver/MD0/
+│  ├─ /Mosfet Coil Driver/MD3/
+├─ /Power In Terminals | Temp Sensor | Power Supply/
+├─ /Clock and Frequency Generator/
+├─ f34f6d07
+│  ├─ /RMF LED Indicator/LED_L2/
+│  ├─ /RMF LED Indicator/LED_L4/
+│  ├─ /RMF LED Indicator/LED_L6/
+│  ├─ /RMF LED Indicator/LED_L1/
+│  ├─ /RMF LED Indicator/LED_L11/
+│  ├─ /RMF LED Indicator/LED_L7/
+│  ├─ /RMF LED Indicator/LED_L13/
+│  ├─ /RMF LED Indicator/LED_L9/
+│  ├─ /RMF LED Indicator/LED_L16/
+│  ├─ /RMF LED Indicator/LED_L15/
+│  ├─ /RMF LED Indicator/LED_L0/
+│  ├─ /RMF LED Indicator/LED_L5/
+│  ├─ /RMF LED Indicator/LED_L8/
+│  ├─ /RMF LED Indicator/LED_L10/
+│  ├─ /RMF LED Indicator/LED_L17/
+│  ├─ /RMF LED Indicator/LED_L14/
+│  ├─ /RMF LED Indicator/LED_L12/
+│  ├─ /RMF LED Indicator/LED_L3/
+11-17 20:53:32 hierpcb 68:Saved.
